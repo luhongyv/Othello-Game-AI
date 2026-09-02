@@ -26,7 +26,7 @@ def play_benchmark(num_games=30):
     print("==========================================================")
     game = OthelloGame(8)
     
-    # 1. Load the trained AlphaZero model
+    # Load the trained AlphaZero model
     print("Loading the 20th generation AlphaZero Best Model...")
     az_net = NNetWrapper(game)
     az_net.to_cpu() # Force CPU inference to avoid overheating or overload
@@ -108,5 +108,7 @@ def play_benchmark(num_games=30):
     print(f"Draws:          {draws}")
     print("=============================================================")
 
+if __name__ == "__main__":
+    play_benchmark(num_games=30)
 if __name__ == "__main__":
     play_benchmark(num_games=30)
