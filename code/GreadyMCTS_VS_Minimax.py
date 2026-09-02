@@ -5,7 +5,7 @@ import json
 crash_log = open("crash_report.txt", "w")
 faulthandler.enable(file=crash_log)
 
-# 终极 C++ 线程锁
+# Ultimate C++ thread lock
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 os.environ['OMP_NUM_THREADS'] = '1'
 os.environ['MKL_NUM_THREADS'] = '1'
@@ -24,7 +24,7 @@ from AGENTS.OthelloPlayers import MinimaxPlayer, GreedyMCTSPlayer
 def run_comprehensive_benchmark(time_limit=1.0, num_games_per_stage=20):
     game = OthelloGame(8)
     
-    # 测试阶段 (如果你只差最后三组，请改回 [50, 55, 60])
+    # Test stages (if you're only missing the last three groups, change back to [50, 55, 60])
     test_stages = [5,10,15,20,25,30,35,40,45, 50, 55, 60]
     greedy_win_rates = []
     minimax_win_rates = []
@@ -63,7 +63,7 @@ def run_comprehensive_benchmark(time_limit=1.0, num_games_per_stage=20):
             minimax_win_rate = (minimax_wins / num_games_per_stage) * 100
             greedy_win_rates.append(greedy_win_rate)
             minimax_win_rates.append(minimax_win_rate)
-            continue # 如果已经跑够了 40 局，直接跳到下一个空位测试
+            continue # If the games for this stage are already completed, skip to the next empty-spots test
         
         for i in range(start_game, num_games_per_stage):
             board = game.getInitBoard()
@@ -146,29 +146,29 @@ def plot_results(stages, greedy_rates, minimax_rates):
         os.makedirs(save_dir)
         print(f"\n Created new directory for charts: {save_dir}/")
     
-    # 强制恢复到默认的经典白底样式
+    # Force revert to the default classic white style
     plt.style.use('default')
 
     plt.figure(figsize=(10, 6))
     
-    # 绘制折线图
+    # Plot line charts
     plt.plot(stages, greedy_rates, marker='o', linewidth=3, markersize=10, label='GreedyMCTS', color='#ff7f0e')
     plt.plot(stages, minimax_rates, marker='s', linewidth=3, markersize=10, label='Minimax (Alpha-Beta)', color='#1f77b4')
     
-    # 设置图表格式
+    # Configure chart formatting
     plt.title('Performance Comparison: GreedyMCTS vs Minimax at Different Game Stages\n(Time Limit: 1.0s / move)', fontsize=16, pad=15)
     plt.xlabel('Remaining Empty Spots (Game Complexity)', fontsize=14)
     plt.ylabel('Win Rate (%)', fontsize=14)
     
-    # X轴翻转
+    # Reverse X-axis
     plt.xlim(max(stages) + 5, min(stages) - 5)
     plt.ylim(-5, 105)
     
-    # 灰色虚线网格
+    # Gray dashed grid
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend(fontsize=12, loc='best')
     
-    # 添加数据标签
+    # Add data labels
     for i, txt in enumerate(greedy_rates):
         plt.annotate(f"{txt:.0f}%", (stages[i], greedy_rates[i] + 3), fontsize=12, color='#ff7f0e', ha='center')
     for i, txt in enumerate(minimax_rates):
