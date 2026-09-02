@@ -20,7 +20,7 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-set_seed(42) # 激活锁
+set_seed(42) # Activate seed lock
 
 sys.path.append(os.getcwd())
 from GAME.OthelloGame import OthelloGame
@@ -40,7 +40,7 @@ class HybridSelfPlayPipeline:
         self.nnet = NNetWrapper(self.game)
         self.pnet = NNetWrapper(self.game)
         
-        # --- 核心控制变量 (必须与 Pure RL 严格对齐) ---
+        # --- Core control variables (must be strictly aligned with Pure RL) ---
         self.num_iters = 20          
         self.num_eps = 100           
         self.tempThreshold = 15      
@@ -61,7 +61,7 @@ class HybridSelfPlayPipeline:
         self.buffer_file = os.path.join(self.ckpt_dir, "replay_buffer_SL_RL.pkl")
         
         # ==========================================
-        # 1. 独家冷启动桥接逻辑 (SL -> RL 的基石)
+        # 1. Exclusive cold start bridging logic (foundation of SL -> RL)
         # ==========================================
         try:
             self.nnet.load_checkpoint(folder=self.models_dir, filename="model_Greedy_SL_RL.pth")
@@ -70,13 +70,13 @@ class HybridSelfPlayPipeline:
             print("No existing hybrid model. Starting from Supervised Pre-trained Expert Model (model_Greedy_SL.pth)...")
             try:
                 self.nnet.load_checkpoint(folder=self.models_dir, filename="model_Greedy_SL.pth")
-                # 立刻另存为 SL+RL 的专属文件，防止覆盖原专家数据
+                # Immediately save as dedicated file for SL+RL to prevent overwriting original expert data
                 self.nnet.save_checkpoint(folder=self.models_dir, filename="model_Greedy_SL_RL.pth")
             except Exception:
                 print("Error: model_Greedy_SL.pth NOT FOUND! Please ensure Trainning_Model_Greedy_SL.py has successfully completed.")
                 sys.exit(1)
 
-        # 2. 读取 JSON 进度存档
+        # 2. Load JSON progress checkpoint
         if os.path.exists(self.state_file):
             print(f"Found pipeline state at {self.state_file}!")
             with open(self.state_file, "r", encoding="utf-8") as f:
@@ -88,7 +88,7 @@ class HybridSelfPlayPipeline:
                 else:
                     print(f"All {self.num_iters} iterations completed.")
                     
-        # 3. 读取 PKL 经验池存档
+        # 3. Load PKL experience buffer checkpoint
         if os.path.exists(self.buffer_file):
             print(f"Found existing replay buffer at {self.buffer_file}!")
             try:
@@ -135,7 +135,7 @@ class HybridSelfPlayPipeline:
         with torch.no_grad():
             for g in range(self.arena_games):
                 
-                # 【内存泄漏彻底修复】：每一局对战，分配干净独立的搜索树！
+                # Complete memory leak fix: allocate clean independent search trees for each game!
                 pmcts = AlphaZeroMCTS(self.game, self.pnet, num_sims=self.num_mcts_sims, c_puct=self.c_puct)
                 nmcts = AlphaZeroMCTS(self.game, self.nnet, num_sims=self.num_mcts_sims, c_puct=self.c_puct)
                 
@@ -182,7 +182,7 @@ class HybridSelfPlayPipeline:
             start_eps = 0
             temp_ckpt_file = os.path.join(self.ckpt_dir, f"iter_{i}_selfplay_ckpt_SL_RL.pkl")
             
-            # 读取局级微存档
+            # Load game-level micro checkpoint
             if os.path.exists(temp_ckpt_file):
                 with open(temp_ckpt_file, "rb") as f:
                     ckpt_data = pickle.load(f)
@@ -204,7 +204,7 @@ class HybridSelfPlayPipeline:
                         
             print(f"\nSelf-play completed in {time.time()-start_time:.1f}s.")
             
-            # 扩展全局滑动经验池并保存硬盘
+            # Extend global sliding experience buffer and save to disk
             self.history_dataset.extend(iteration_train_examples)
             print(f"Total historical samples in replay buffer: {len(self.history_dataset)}")
             with open(self.buffer_file, "wb") as f:
@@ -217,7 +217,7 @@ class HybridSelfPlayPipeline:
             self.pnet.nnet.load_state_dict(self.nnet.nnet.state_dict())
             print("Starting to fine-tune the new model...")
             
-            # 【完美对接 SL 的训练器】：把经验池存为 Dataset 支持的临时文件
+            # Perfect integration with SL trainer: save experience buffer as temporary file supported by Dataset
             temp_train_data = os.path.join(self.ckpt_dir, "temp_train_data_SL_RL.pkl")
             with open(temp_train_data, "wb") as f:
                 pickle.dump(list(self.history_dataset), f)
@@ -246,7 +246,7 @@ class HybridSelfPlayPipeline:
             else:
                 print(f"Evolution failed. New model win rate: {win_rate*100:.1f}%.")
 
-            # 保存 JSON 进度
+            # Save JSON progress
             with open(self.state_file, "w", encoding="utf-8") as f:
                 json.dump(self.history, f, indent=4)
             print(f"Iteration {i} state fully saved! Safe to interrupt.")
