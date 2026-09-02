@@ -8,12 +8,13 @@ import gc
 sys.path.append(os.getcwd())
 from GAME.OthelloGame import OthelloGame
 
-# 终极 C++ 线程锁，防止底层干扰
+# Prevent duplicate C++ thread libraries from causing interference
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 os.environ['OMP_NUM_THREADS'] = '1'
 
 def get_random_board(game, target_empty_spots):
-    """模拟真实对局，随机走棋直到盘面剩下指定数量的空位"""
+    """Simulate a realistic game by playing random moves until the board
+    has the specified number of empty spots remaining."""
     while True:
         board = game.getInitBoard()
         cur_player = 1
@@ -37,8 +38,8 @@ def get_random_board(game, target_empty_spots):
             return board, cur_player
 
 # ==========================================
-# 🌟 全新重构：无状态的 NumPy 探测器
-# 彻底杜绝 Python 原生 List 内存崩坏问题！
+# Refactor: Stateless NumPy-based probe
+# Eliminates memory corruption issues caused by native Python lists
 # ==========================================
 class SpeedTester:
     def __init__(self, game):
@@ -57,7 +58,7 @@ class SpeedTester:
         if depth == 0:
             return
             
-        # 使用 numpy 高速获取合法动作 (包括自动处理 Pass 跳过机制)
+        # Use NumPy to quickly get valid moves (automatically handles pass/skip)
         valids = self.game.getValidMoves(board, player)
         valid_acts = np.where(valids == 1)[0]
         
@@ -65,9 +66,10 @@ class SpeedTester:
             return
 
         for action in valid_acts:
-            # getNextState 返回的是一块全新的 NumPy 内存区域，绝对安全！
+            # getNextState returns a fresh NumPy array (safe to pass to recursion)
             next_board, next_player = self.game.getNextState(board, player, action)
             self._alphabeta(next_board, next_player, depth - 1, -beta, -alpha)
+
 
 def generate_and_save_table(table_data):
     import matplotlib.pyplot as plt
@@ -113,7 +115,7 @@ def generate_and_save_table(table_data):
 
 if __name__ == "__main__":
     game = OthelloGame(8)
-    # 🌟 将 game 传入全新探测器
+    # Pass the game instance into the tester
     tester = SpeedTester(game) 
     
     test_cases = [
@@ -133,7 +135,7 @@ if __name__ == "__main__":
         target_empty = case["empty"]
         board, player = get_random_board(game, target_empty)
         
-        # 🌟 删除了 py_board 转换！直接使用原始的 NumPy array board
+        # Removed py_board conversion; use the original NumPy array board
         
         prev_nodes = None
         prev_depth = None
@@ -144,7 +146,7 @@ if __name__ == "__main__":
             
             print(f"Testing {case['phase']} (Empty: {target_empty}) at Depth {d}...")
             
-            # 🌟 直接传入 NumPy board
+            # Pass NumPy board directly
             nodes, cost = tester.count_nodes(board, player, d)
             cost = max(cost, 0.0001) 
             speed = int(nodes / cost)
