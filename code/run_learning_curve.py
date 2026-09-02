@@ -21,7 +21,7 @@ class AlphaZeroPlayer:
         self.reset_mcts()
         
     def reset_mcts(self):
-        """每局对局后重置 MCTS 树，防止内存泄露"""
+        """Reset MCTS tree after each game to prevent memory leaks"""
         self.mcts = AlphaZeroMCTS(
             self.game, 
             self.nnet, 
@@ -34,7 +34,7 @@ class AlphaZeroPlayer:
         return np.argmax(pi)
 
 def run_evaluation(agent_name, model_file, baseline_func, game, num_games=100):
-    """单模型对抗评估函数"""
+    """Single model vs baseline evaluation function"""
     print(f"\n[{time.strftime('%H:%M:%S')}] Evaluating {model_file} (Total Games: {num_games}, MCTS Sims: 400) ...")
     MODELS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'MODELS')
     
@@ -53,7 +53,7 @@ def run_evaluation(agent_name, model_file, baseline_func, game, num_games=100):
         log_file="learning_curve_log.txt"
     )
     
-    # 临时重定向标准输出，避免控制台刷屏
+    # Temporarily redirect stdout to avoid console spam
     with open(os.devnull, 'w') as devnull:
         old_stdout = sys.stdout
         sys.stdout = devnull
@@ -91,19 +91,19 @@ if __name__ == "__main__":
     
     csv_filename = "learning_curve_data.csv"
     
-    # 自动加载已完成的记录，实现完美的断点续传
+    # Auto-load completed records to achieve perfect checkpoint recovery
     completed_set = set()
     file_exists = os.path.exists(csv_filename)
     
     if file_exists:
         with open(csv_filename, mode='r', newline='', encoding='utf-8') as f:
             reader = csv.reader(f)
-            next(reader, None) # 跳过表头
+            next(reader, None) # Skip header
             for row in reader:
                 if len(row) >= 2:
-                    completed_set.add((row[0], row[1])) # 记录 (Algorithm, Iteration_Label)
+                    completed_set.add((row[0], row[1])) # Record (Algorithm, Iteration_Label)
                     
-    # 根据文件是否存在选择追加模式或写入模式
+    # Choose append or write mode based on file existence
     mode = 'a' if file_exists else 'w'
     with open(csv_filename, mode=mode, newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
@@ -113,12 +113,12 @@ if __name__ == "__main__":
         for algo_name, ckpt_list in checkpoints_to_test.items():
             print(f"\n================ Evaluating {algo_name} ================")
             for iter_label, filename in ckpt_list:
-                # 检查该检查点是否已经跑过并写入 CSV
+                # Check if this checkpoint has already been completed and written to CSV
                 if (algo_name, iter_label) in completed_set:
-                    print(f"  [Resume Skip] {algo_name} - {iter_label} ({filename}) 已经完成，自动跳过！")
+                    print(f"  [Resume Skip] {algo_name} - {iter_label} ({filename}) already completed, automatically skipped!")
                     continue
                     
-                # 正式运行评估（如需2000局可在此处修改参数）
+                # Formally run evaluation (can modify parameters here for 2000 games if needed)
                 win_rate = run_evaluation(f"{algo_name}_{iter_label}", filename, greedy_baseline, game, num_games=2000)
                 if win_rate is not None:
                     writer.writerow([algo_name, iter_label, filename, round(win_rate, 3)])
