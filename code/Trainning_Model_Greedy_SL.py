@@ -135,7 +135,7 @@ if __name__ == "__main__":
     dataset = OthelloDataset(dataset_file)
     
     # 3. Train the network 
-    # 离线监督学习阶段：由于数据集极其庞大，恢复较大的 batch_size 和 epochs，让模型充分吸收专家知识
+    # Offline supervised learning phase: Since the dataset is extremely large, restore larger batch_size and epochs to let the model fully absorb expert knowledge
     trainer = AlphaZeroTrainer(resnet, lr=0.001, batch_size=512, epochs=20)
     trainer.train(dataset)
     
