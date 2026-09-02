@@ -50,7 +50,7 @@ def run_comprehensive_benchmark(time_limit=1.0, num_games_per_stage=20):
                 greedy_wins = ckpt['greedy_wins']
                 minimax_wins = ckpt['minimax_wins']
                 draws = ckpt['draws']
-            print(f"  发现存档！正在从第 {start_game + 1} 局恢复进度...")
+            print(f"  Save file found! Resuming progress from game {start_game + 1}...")
         else:
             start_game = 0
             greedy_wins = 0
@@ -58,7 +58,7 @@ def run_comprehensive_benchmark(time_limit=1.0, num_games_per_stage=20):
             draws = 0
             
         if start_game >= num_games_per_stage:
-            print(f"  本阶段 {num_games_per_stage} 局已全部跑完！")
+            print(f"  All {num_games_per_stage} games in this phase have been completed!")
             greedy_win_rate = (greedy_wins / num_games_per_stage) * 100
             minimax_win_rate = (minimax_wins / num_games_per_stage) * 100
             greedy_win_rates.append(greedy_win_rate)
