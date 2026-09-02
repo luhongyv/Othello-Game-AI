@@ -3,10 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class ResBlock(nn.Module):
-    """
-    Residual Block: The core component of true AlphaZero architecture.
-    残差块：真正 AlphaZero 架构的核心组件。
-    """
+
     def __init__(self, channels):
         super(ResBlock, self).__init__()
         self.conv1 = nn.Conv2d(channels, channels, kernel_size=3, stride=1, padding=1, bias=False)
@@ -18,33 +15,30 @@ class ResBlock(nn.Module):
         residual = x
         out = F.relu(self.bn1(self.conv1(x)))
         out = self.bn2(self.conv2(out))
-        out += residual  # Skip connection! (跳跃连接，防止梯度消失)
+        out += residual  # Skip connection! 
         out = F.relu(out)
         return out
 
 class OthelloNNet(nn.Module):
-    """
-    AlphaZero Dual-Head Residual Network (ResNet).
-    AlphaZero 双头残差网络。
-    """
+
     def __init__(self, game, num_channels=128, num_res_blocks=4):
         super(OthelloNNet, self).__init__()
         self.board_x, self.board_y = game.getBoardSize()
         self.action_size = game.getActionSize()
 
-        # 1. Initial Convolutional Block (初始卷积块)
+        # 1. Initial Convolutional Block 
         self.conv_initial = nn.Conv2d(1, num_channels, kernel_size=3, stride=1, padding=1, bias=False)
         self.bn_initial = nn.BatchNorm2d(num_channels)
 
-        # 2. Residual Tower (残差塔)
+        # 2. Residual Tower 
         self.res_blocks = nn.ModuleList([ResBlock(num_channels) for _ in range(num_res_blocks)])
 
-        # 3. Policy Head (策略头: 预测怎么走)
+        # 3. Policy Head 
         self.conv_policy = nn.Conv2d(num_channels, 2, kernel_size=1, bias=False)
         self.bn_policy = nn.BatchNorm2d(2)
         self.fc_policy = nn.Linear(2 * self.board_x * self.board_y, self.action_size)
 
-        # 4. Value Head (价值头: 预测胜率)
+        # 4. Value Head 
         self.conv_value = nn.Conv2d(num_channels, 1, kernel_size=1, bias=False)
         self.bn_value = nn.BatchNorm2d(1)
         self.fc_value1 = nn.Linear(1 * self.board_x * self.board_y, 256)
