@@ -26,10 +26,10 @@ def play_benchmark(num_games=30):
     print("==========================================================")
     game = OthelloGame(8)
     
-    # 1. 加载训练好的 AlphaZero 大脑
+    # 1. Load the trained AlphaZero model
     print("Loading the 20th generation AlphaZero Best Model...")
     az_net = NNetWrapper(game)
-    az_net.to_cpu() # 强制 CPU 推理，防发热过载
+    az_net.to_cpu() # Force CPU inference to avoid overheating or overload
     
     model_path = os.path.join(os.getcwd(), "MODELS", "best_model.pth")
     if os.path.exists(model_path):
@@ -38,8 +38,8 @@ def play_benchmark(num_games=30):
         print(f"Error: {model_path} not found! Please check your MODELS folder.")
         return
 
-    # 2. 实例化两个选手（严格对齐物理思考资源）
-    # 给 AlphaZero 200 次搜索，使其单步耗时与 Minimax 的 1.0 秒高度对齐
+    # 2. Instantiate the two players (strictly align physical thinking resources)
+    # Give AlphaZero 200 simulations so its per-move time aligns closely with Minimax's 1.0 second
     az_mcts = AlphaZeroMCTS(game, az_net, num_sims=200, c_puct=1.0)
     minimax_player = MinimaxPlayer(game, time_limit=1.0)
 
@@ -52,16 +52,16 @@ def play_benchmark(num_games=30):
 
     for i in range(num_games):
         board = game.getInitBoard()
-        cur_player = 1  # 1 为黑方，-1 为白方
+        cur_player = 1  # 1 is black, -1 is white
         
-        # 奇数局：AlphaZero 执黑先手，Minimax 执白后手
-        # 偶数局：Minimax 执黑先手，AlphaZero 执白后手
+        # Odd-numbered games: AlphaZero plays black (first), Minimax plays white (second)
+        # Even-numbered games: Minimax plays black (first), AlphaZero plays white (second)
         az_color = 1 if i % 2 == 0 else -1
         
         while game.getGameEnded(board, 1) == 0:
-            # 轮到 AlphaZero 下棋
+            # AlphaZero's turn to move
             if cur_player == az_color:
-                # 动态打扫 AlphaZero 的记忆树，腾出物理内存
+                # Periodically clean AlphaZero's memory tree to free physical memory
                 if len(az_mcts.Ps) > 20000:
                     az_mcts.Qsa.clear()
                     az_mcts.Nsa.clear()
@@ -71,21 +71,21 @@ def play_benchmark(num_games=30):
                     az_mcts.Vs.clear()
                     gc.collect()
                     
-                # AlphaZero 必须在当前的旋转视角（canonical_board）下看盘
+                # AlphaZero must view the board in the current canonical orientation (relative to the player)
                 canonical_board = game.getCanonicalForm(board, cur_player)
                 probs = az_mcts.getAction(canonical_board, temp=0)
                 action = np.argmax(probs)
             
-            # 轮到 Minimax 下棋
+            # Minimax's turn to move
             else:
 
                 action = minimax_player.play(board)
             
-            # 执行落子
+            # Execute the move
             board, next_player = game.getNextState(board, cur_player, action)
             cur_player = next_player
 
-        # 结算本局
+        # Settle the game result
         r = game.getGameEnded(board, 1)
         if (r == 1 and az_color == 1) or (r == -1 and az_color == -1):
             az_wins += 1
@@ -99,7 +99,7 @@ def play_benchmark(num_games=30):
             
         print(f"Game {i+1:02d}/{num_games} finished -> {result_str} (Score: AZ {game.getScore(board, az_color)} VS Minimax {game.getScore(board, -az_color)})")
         
-        # 每局结束深度释放内存
+        # Run deep garbage collection after each game
         gc.collect()
 
     print("\n================== Final Benchmark Results ==================")
