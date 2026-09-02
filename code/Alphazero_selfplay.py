@@ -7,51 +7,49 @@ import time
 from collections import deque
 import gc
 import json  
-
 sys.path.append(os.getcwd())
 from GAME.OthelloGame import OthelloGame
 from CNN.NNetTrainer import NNetWrapper
 from AGENTS.OthelloPlayers import AlphaZeroMCTS
-
-# 借用你之前写好的训练器代码
+# Reuse the trainer code you wrote earlier
 from train_alphazero_Gready import AlphaZeroTrainer, OthelloDataset
 
 class SelfPlayPipeline:
     def __init__(self, game):
         self.game = game
         
-        # 1. 初始化当前最强模型 (老大脑)
+        # 1. Initialize the current strongest model (old brain)
         self.nnet = NNetWrapper(self.game)
         checkpoint_path = os.path.join("checkpoint", "resnet_expert.pth")
         if not os.path.exists(checkpoint_path):
-            print("Error: resnet_expert.pth not found! Please check the path.") # 找不到专家模型权重，强制退出
+            print("Error: resnet_expert.pth not found! Please check the path.") # Expert model weights not found, force exit
             sys.exit()
         self.nnet.load_checkpoint(folder="checkpoint", filename="resnet_expert.pth")
         
-        # 2. 初始化挑战者模型 (新大脑)
+        # 2. Initialize the challenger model (new brain)
         self.pnet = NNetWrapper(self.game)
         
-        # --- 核心训练参数 (MVP 极简版) ---
-        self.num_iters = 5        # 总共进行几次进化大循环
-        self.num_eps = 100         # 自我对弈局数
-        self.tempThreshold = 15   # 前 15 步带有极高探索性 (Temp=1)
-        self.update_threshold = 0.55 # 新模型胜率 >= 55% 才能替代老模型
-        self.arena_games = 40     # 新老大脑打擂台的局数
-        self.epochs = 2           # 每次拿到新数据，只微调 2 个 Epoch
-        self.batch_size = 64      # 训练批次大小
+        # --- Core training parameters (MVP minimal version) ---
+        self.num_iters = 5        # Total number of evolution cycles
+        self.num_eps = 100         # Number of self-play episodes
+        self.tempThreshold = 15   # First 15 steps with high exploration (Temp=1)
+        self.update_threshold = 0.55 # New model win rate >= 55% to replace old model
+        self.arena_games = 40     # Number of arena games between new and old brain
+        self.epochs = 2           # Only fine-tune for 2 epochs each time new data is obtained
+        self.batch_size = 64      # Training batch size
         
         self.history = []
         self.start_iter = 1
         self.state_file = os.path.join("checkpoint", "pipeline_state.json")
         
-        # 检查是否存在中断的历史记录
+        # Check if there is an interrupted history record
         if os.path.exists(self.state_file):
             print(f"Found existing pipeline state at {self.state_file}!")
             with open(self.state_file, "r", encoding="utf-8") as f:
                 self.history = json.load(f)
             
             if self.history:
-                # 找到上一次完成的最高轮次，加 1 就是本次要启动的轮次
+                # Find the highest completed iteration from last run, add 1 to get the iteration to start this time
                 self.start_iter = self.history[-1]['iteration'] + 1
                 if self.start_iter <= self.num_iters:
                     print(f"Fast-forwarding: Resuming directly from Iteration {self.start_iter}/{self.num_iters}")
@@ -59,38 +57,38 @@ class SelfPlayPipeline:
                     print(f"All {self.num_iters} iterations were already completed previously.")
 
     def execute_episode(self):
-        """核心动作：打自己一局，返回训练数据"""
+        """Core action: play one game against itself, return training data"""
         train_examples = []
         board = self.game.getInitBoard()
         cur_player = 1
         episode_step = 0
         
-        # 实例化带有噪声的 MCTS (探索度拉满)
+        # Instantiate MCTS with noise (exploration maxed out)
         mcts = AlphaZeroMCTS(self.game, self.nnet, num_sims=100, c_puct=1.0)
         
         while True:
             episode_step += 1
             canonical_board = self.game.getCanonicalForm(board, cur_player)
             
-            # 前 15 步保持探索 (temp=1)，之后变成绝对贪心 (temp=0)
+            # Keep exploration for first 15 steps (temp=1), then become absolutely greedy (temp=0)
             temp = int(episode_step < self.tempThreshold)
             
-            # 获取动作概率！(开启 add_noise)
+            # Get action probabilities! (enable add_noise)
             pi = mcts.getAction(canonical_board, temp=temp, add_noise=True)
             
-            # 记录数据 (当前 player 的视角，此时胜负未知先填 None)
+            # Record data (from current player's perspective, outcome unknown so fill None for now)
             sym = self.game.getSymmetries(canonical_board, pi)
             for b, p in sym:
                 train_examples.append([b, cur_player, p, None])
                 
-            # 落子
+            # Make a move
             action = np.random.choice(len(pi), p=pi)
             board, cur_player = self.game.getNextState(board, cur_player, action)
             
-            # 检查游戏是否结束
+            # Check if the game is over
             r = self.game.getGameEnded(board, 1)
             if r != 0:
-                # 游戏结束，回溯赋予真实的 Value 标签
+                # Game over, backtrack to assign real Value labels
                 res = [(x[0], x[2], r * (1 if x[1] == cur_player else -1)) for x in train_examples]
                 del mcts
                 del train_examples
@@ -98,11 +96,12 @@ class SelfPlayPipeline:
                 gc.collect()
                 
                 return res
+
     def play_arena(self):
-        print(f"Starting Arena: Challenger (New) vs Champion (Old) - {self.arena_games} games") # 开始打擂台
+        print(f"Starting Arena: Challenger (New) vs Champion (Old) - {self.arena_games} games") # Start the arena
         pwins, nwins, draws = 0, 0, 0
         
-        # 擂台赛中双方算力公平，都为 200 次模拟
+        # Both sides have equal computing power in arena, both 200 simulations
         pmcts = AlphaZeroMCTS(self.game, self.pnet, num_sims=200, c_puct=1.0)
         nmcts = AlphaZeroMCTS(self.game, self.nnet, num_sims=200, c_puct=1.0)
         
@@ -133,7 +132,7 @@ class SelfPlayPipeline:
                 print(f"Arena Game {g+1}/{self.arena_games} completed | New Wins: {pwins}, Old: {nwins}, Draws: {draws}", end='\r')
         
         print()
-        # 打完擂台同样要手动粉碎 MCTS 树
+        # Manually destroy MCTS trees after arena as well
         del pmcts, nmcts
         import gc
         gc.collect()
@@ -141,14 +140,14 @@ class SelfPlayPipeline:
         return pwins, nwins, draws
 
     def learn(self):
-        """强化学习主循环"""
+        """Reinforcement learning main loop"""
         for i in range(self.start_iter, self.num_iters + 1):
             print(f"\n==========================================")
-            print(f"Starting Reinforcement Learning Iteration: {i}/{self.num_iters}") # 开始新的 RL 迭代
+            print(f"Starting Reinforcement Learning Iteration: {i}/{self.num_iters}") # Start a new RL iteration
             print(f"==========================================")
             
             # ==========================================
-            # 1. 自我对弈收集数据 (带局内断点重续机制)
+            # 1. Self-play to collect data (with in-episode checkpoint resume mechanism)
             # ==========================================
             print(f"Starting self-play (Target: {self.num_eps} episodes)...")
             start_time = time.time()
@@ -158,22 +157,22 @@ class SelfPlayPipeline:
             iteration_train_examples = []
             start_eps = 0
             
-            # 定义局内临时断点文件的名字 (例如: iter_1_selfplay_ckpt.pkl)
+            # Define the name of the in-episode temporary checkpoint file (e.g. iter_1_selfplay_ckpt.pkl)
             temp_ckpt_file = os.path.join("checkpoint", f"iter_{i}_selfplay_ckpt.pkl")
             
-            # 👉 检查：如果中途闪退过，直接读取硬盘里残存的数据和局数
+            # Check: if it crashed midway, directly read the remaining data and episode count from disk
             if os.path.exists(temp_ckpt_file):
                 with open(temp_ckpt_file, "rb") as f:
                     ckpt_data = pickle.load(f)
                 iteration_train_examples = ckpt_data['examples']
                 start_eps = ckpt_data['eps_completed']
-                print(f"  -> 🔍 Recovered from crash! Resuming self-play from game {start_eps+1}/{self.num_eps}...")
+                print(f"  -> Recovered from crash! Resuming self-play from game {start_eps+1}/{self.num_eps}...")
 
-            with torch.no_grad(): # 保持关闭梯度，极大节省内存
+            with torch.no_grad(): # Keep gradients disabled, greatly saves memory
                 for eps in range(start_eps, self.num_eps):
                     print(f"  -> Playing Game {eps+1}/{self.num_eps} ...", end=" ", flush=True)
                     
-                    # 下完完整的一局
+                    # Play a complete game
                     new_examples = self.execute_episode()
                     iteration_train_examples += new_examples
                     
@@ -182,7 +181,7 @@ class SelfPlayPipeline:
                     safe_tmp_file = temp_ckpt_file + ".tmp"
                     with open(safe_tmp_file, "wb") as f:
                         pickle.dump({'eps_completed': eps + 1, 'examples': iteration_train_examples}, f)
-                    os.replace(safe_tmp_file, temp_ckpt_file) # 瞬间替换，防闪退坏档
+                    os.replace(safe_tmp_file, temp_ckpt_file) # Instant replacement, prevents corrupted files from crashes
                         
             print(f"\nSelf-play completed in {time.time()-start_time:.1f}s. Total {len(iteration_train_examples)} new samples.")
             
@@ -195,18 +194,18 @@ class SelfPlayPipeline:
             dataset = OthelloDataset(temp_data_file)
             
             # ==========================================
-            # 后续的微调与打擂台流程 (保持原样)
+            # Subsequent fine-tuning and arena process (keep as is)
             # ==========================================
             
-            # 2. 将当前老大脑参数复制给新大脑，准备微调
+            # 2. Copy current old brain parameters to new brain, prepare for fine-tuning
             self.pnet.nnet.load_state_dict(self.nnet.nnet.state_dict())
             
-            # 3. 训练新大脑 (微调)
+            # 3. Train the new brain (fine-tune)
             print("Starting to fine-tune the new model...")
             trainer = AlphaZeroTrainer(self.pnet.nnet, lr=0.0005, batch_size=self.batch_size, epochs=self.epochs)
             trainer.train(dataset)
             
-            # 4. 打擂台决出胜负
+            # 4. Play arena to determine the winner
             pwins, nwins, draws = self.play_arena()
             
             total_wins = pwins + nwins
@@ -221,15 +220,15 @@ class SelfPlayPipeline:
             })
             
             if total_wins > 0 and win_rate >= self.update_threshold:
-                # 胜率超过阈值，接受新模型
+                # Win rate exceeds threshold, accept the new model
                 print(f"Evolution successful! New model win rate: {win_rate*100:.1f}%. Replacing old model.")
                 self.nnet.nnet.load_state_dict(self.pnet.nnet.state_dict())
-                # 保存本次迭代的历史模型
+                # Save the historical model for this iteration
                 self.nnet.save_checkpoint(folder="checkpoint", filename=f"resnet_rl_iter_{i}.pth")
-                # 覆盖当前最强模型，作为下一轮的基准
+                # Overwrite the current strongest model, as the baseline for the next round
                 self.nnet.save_checkpoint(folder="checkpoint", filename="resnet_expert.pth")
             else:
-                # 胜率不足，丢弃新模型
+                # Win rate insufficient, discard the new model
                 print(f"Evolution failed. New model win rate: {win_rate*100:.1f}%. Discarding new data.")
 
             with open(self.state_file, "w", encoding="utf-8") as f:
@@ -237,6 +236,7 @@ class SelfPlayPipeline:
             print(f"Iteration {i} state saved to checkpoint! It is now safe to interrupt the script if needed.")
             if os.path.exists(temp_ckpt_file):
                 os.remove(temp_ckpt_file)
+
         print("\nAll reinforcement learning iterations completed.")
         self.generate_result_table()
 
@@ -270,7 +270,7 @@ class SelfPlayPipeline:
             
         final_table = "\n".join(table_str)
         
-        # 1. 打印到终端
+        # 1. Print to terminal
         print("\n" + "="*80)
         print("AlphaZero Self-Play RL Proof of Concept (PoC) Test Results")
         print("="*80)
@@ -281,7 +281,7 @@ class SelfPlayPipeline:
         if not os.path.exists(save_dir):
             os.makedirs(save_dir)
             
-        # 2. 保存为 Markdown
+        # 2. Save as Markdown
         save_path_md = os.path.join(save_dir, "SelfPlay_Evolution_Table.md")
         with open(save_path_md, "w", encoding="utf-8") as f:
             f.write("### Table X: AlphaZero Self-Play RL Proof of Concept Test Results\n")
@@ -305,7 +305,7 @@ class SelfPlayPipeline:
                 status_text
             ])
             
-        # 动态计算表格高度
+        # Dynamically calculate table height
         fig, ax = plt.subplots(figsize=(10, len(cell_text) * 0.6 + 1.5), dpi=300)
         ax.axis('off')
         
@@ -321,13 +321,13 @@ class SelfPlayPipeline:
         for idx in range(1, len(cell_text) + 1):
             for j in range(len(columns)):
                 cell = table[idx, j]
-                # Status 状态高亮
+                # Status highlight
                 if j == 5: 
                     if "Successful" in cell_text[idx-1][5]:
-                        cell.set_text_props(color='#27ae60') # 绿色成功
+                        cell.set_text_props(color='#27ae60') # Green for success
                     else:
-                        cell.set_text_props(color='#c0392b') # 红色失败
-                # 斑马纹交替行颜色
+                        cell.set_text_props(color='#c0392b') # Red for failure
+                # Zebra stripe alternating row colors
                 if idx % 2 == 0:
                     cell.set_facecolor('#f4f6f7')
                     
