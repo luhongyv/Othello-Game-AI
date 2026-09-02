@@ -10,7 +10,7 @@ from AGENTS.OthelloPlayers import PureMCTSPlayer
 
 def execute_episode(game, mcts_player):
     """
-    执行一局完整的左右互搏，收集 (s, pi, z) 训练数据。
+    Execute a complete self-play episode, collecting (s, pi, z) training data.
     """
     train_examples = []
     board = game.getInitBoard()
@@ -21,36 +21,36 @@ def execute_episode(game, mcts_player):
     
     while True:
         episode_step += 1
-        # 1. 始终使用“当前玩家视角”的棋盘
+        # 1. Always use the canonical form of the board from the current player's perspective
         canonical_board = game.getCanonicalForm(board, cur_player)
         
-        # 2. 让 MCTS 思考，获得动作概率分布 pi
+        # 2. Let MCTS think and get the action probability distribution pi
         pi = mcts_player.getAction(canonical_board)
         
-        # 【记录数据】：存下当前的 盘面、概率、以及是谁在下棋
+        # Record data: store the current board state, probability, and the player making the move
         train_examples.append([canonical_board, cur_player, pi, None])
         
-        # 3. 根据概率 pi 随机抽样选择一个动作去下
-        # 这保证了 AI 不会每局都下出完全一模一样的棋
+        # 3. Sample an action based on the probability distribution pi
+        # This ensures that the AI doesn't play the exact same moves in every game
         action = np.random.choice(len(pi), p=pi)
         
-        # 4. 执行动作，进入下一个状态
+        # 4. Execute the action and move to the next state
         board, cur_player = game.getNextState(board, cur_player, action)
         
-        # 5. 判断游戏是否结束
+        # 5. Check if the game has ended
         r = game.getGameEnded(board, cur_player)
         if r != 0:
-            # 游戏结束了！开始给之前记录的数据打上最终胜负标签 z
+            # The game is finished! Now label the previously recorded data with the final outcome z
             print(f"Episode finished. Total steps: {episode_step}")
             
-            # 回溯打标签：如果最后的赢家和下这步棋的人是同一个，z就是赢(+1/胜负值)，否则就是输(-1/胜负值)
-            # 因为 r 是相对于游戏结束时的 cur_player 而言的，所以要做一次判断
+            # Backtrack and label: if the final winner is the same player who made this move, z is win (+1/outcome value), otherwise loss (-1/outcome value)
+            # Since r is relative to the cur_player at the end of the game, we need to check if they are the same player
             for step_idx in range(len(train_examples)):
                 is_same_player = (train_examples[step_idx][1] == cur_player)
-                # 存入最终的 (s, pi, z)
+                # Store the final (s, pi, z)
                 train_examples[step_idx][3] = r if is_same_player else -r
                 
-            # 返回干净的 (s, pi, z) 数据集
+            # Return the clean (s, pi, z) dataset
             return [(x[0], x[2], x[3]) for x in train_examples]
 
 if __name__ == "__main__":
