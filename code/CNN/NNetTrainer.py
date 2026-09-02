@@ -6,11 +6,11 @@ import sys
 import time
 
 # Ensure the root directory is in the search path
-# 确保根目录在搜索路径中（顶格写，不要缩进）
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # Global import - must not be inside any function
-# 全局导入 - 严禁写在任何函数或类内部（顶格写，不要缩进）
+
 from CNN.OthelloNNet import OthelloNNet
 
 class NNetWrapper:
@@ -36,7 +36,7 @@ class NNetWrapper:
 
         board_tensor = torch.FloatTensor(board.astype(np.float64)).unsqueeze(0).to(self.device)
         
-        self.nnet.eval() # 开启评估模式
+        self.nnet.eval() 
         
         with torch.no_grad(): 
             pi, v = self.nnet(board_tensor)
