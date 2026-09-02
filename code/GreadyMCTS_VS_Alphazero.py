@@ -186,29 +186,29 @@ def plot_results(stages, greedy_rates, az_rates):
         os.makedirs(save_dir)
         print(f"\n Created new directory for charts: {save_dir}/")
     
-    # 强制恢复到默认的经典白底样式
+    
     plt.style.use('default')
 
     plt.figure(figsize=(10, 6))
     
-    # 绘制折线图
+    
     plt.plot(stages, greedy_rates, marker='o', linewidth=3, markersize=10, label='GreedyMCTS', color='#ff7f0e')
     plt.plot(stages, az_rates, marker='s', linewidth=3, markersize=10, label='AlphaZero', color='#1f77b4')
     
-    # 设置图表格式
+    
     plt.title('Performance Comparison: GreedyMCTS vs AlphaZero at Different Game Stages\n(Time Limit: 1.0s / move)', fontsize=16, pad=15)
     plt.xlabel('Remaining Empty Spots (Game Complexity)', fontsize=14)
     plt.ylabel('Win Rate (%)', fontsize=14)
     
-    # X轴翻转
+   
     plt.xlim(max(stages) + 5, min(stages) - 5)
     plt.ylim(-5, 105)
     
-    # 灰色虚线网格
+    
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.legend(fontsize=12, loc='best')
     
-    # 添加数据标签
+    
     for i, txt in enumerate(greedy_rates):
         plt.annotate(f"{txt:.0f}%", (stages[i], greedy_rates[i] + 3), fontsize=12, color='#ff7f0e', ha='center')
     for i, txt in enumerate(az_rates):
