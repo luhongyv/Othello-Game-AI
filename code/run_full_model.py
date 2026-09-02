@@ -33,7 +33,7 @@ class AlphaZeroPlayer:
 
 
 def is_matchup_done(log_file, name1, name2):
-    """最安全的宏观检查：只要日志里有这场比赛的最终结算结果，就直接跳过"""
+    """Most secure macro check: as long as the log has the final settlement result for this match, skip it directly"""
     if not os.path.exists(log_file):
         return False
     with open(log_file, "r", encoding="utf-8") as f:
@@ -69,9 +69,9 @@ if __name__ == "__main__":
             name1, p1 = competitors[i]
             name2, p2 = competitors[j]
             
-            # 宏观防线：如果这组 1000 局在日志里已经彻底完成了，重启时绝不重复跑
+            # Macro defense: if this set of 1000 games has been completely finished in the log, never repeat it on restart
             if is_matchup_done(LOG_FILE, name1, name2):
-                print(f"\n[Safe Skip] {name1} vs {name2} 已在日志中全部完成，跳过！")
+                print(f"\n[Safe Skip] {name1} vs {name2} fully completed in log, skipping!")
                 continue
             
             print(f"\n>>>>>>>> Preparing Matchup: {name1} vs {name2} <<<<<<<<")
