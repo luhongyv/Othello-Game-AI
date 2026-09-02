@@ -1,13 +1,12 @@
 # -*- coding: utf-8 -*-
 import os
-# 终极封印：防止底层 C++ 线程冲突导致的闪退
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 os.environ['OMP_NUM_THREADS'] = '1'
 
 import sys
 import numpy as np
 import torch
-torch.set_num_threads(1) # 限制 PyTorch 线程
+torch.set_num_threads(1) 
 
 import time
 import gc
@@ -37,10 +36,6 @@ def run_mcts_budget_sweep():
     #budget_pairs = [(50, 100), (100, 200), (150, 300), (200, 400),(400, 800),(800, 1600)]
     budget_pairs = [(400, 800),(800, 1600)]
     total_games = 400 
-    # -----------------------------------------
-    # 断点重续机制初始化
-    # -----------------------------------------
-    # 必须使用云盘内的绝对路径
     ckpt_dir = "checkpoint"
     if not os.path.exists(ckpt_dir):
         os.makedirs(ckpt_dir)
@@ -71,8 +66,6 @@ def run_mcts_budget_sweep():
         else:
             print(f"Found checkpoint, but all matchups are already completed!")
 
-    # 全程关闭梯度，极速推理，防止内存泄漏
-    # 全程关闭梯度，极速推理，防止内存泄漏
     with torch.no_grad():
         for pair_idx in range(start_pair_idx, len(budget_pairs)):
             n, two_n = budget_pairs[pair_idx]
@@ -85,14 +78,12 @@ def run_mcts_budget_sweep():
                 
                 is_N_first = (g % 2 == 0)
                 
-                # 这样内存占用永远只有 1 局的大小，绝对不可能再撑爆闪退。
                 mcts_N = AlphaZeroMCTS(game, nnet, num_sims=n, c_puct=1.0)
                 mcts_2N = AlphaZeroMCTS(game, nnet, num_sims=two_n, c_puct=1.0)
                 move_count = 0
                 while game.getGameEnded(board, cur_player) == 0:
                     canonical_board = game.getCanonicalForm(board, cur_player)
                     
-                    # 核心机制：前 4 步强制引入随机性探索，之后恢复纯算力推演
                     current_temp = 1 if move_count < 4 else 0
                     
                     if (cur_player == 1 and is_N_first) or (cur_player == -1 and not is_N_first):
@@ -101,7 +92,7 @@ def run_mcts_budget_sweep():
                         pi = mcts_2N.getAction(canonical_board, temp=current_temp, add_noise=False)
                         
                     if current_temp == 0:
-                        action = np.argmax(pi) # 纯算力推演阶段，严格选择最优解
+                        action = np.argmax(pi) 
                     else:
                         pi = np.array(pi)
                         pi /= np.sum(pi)
@@ -109,8 +100,8 @@ def run_mcts_budget_sweep():
                     
                     board, cur_player = game.getNextState(board, cur_player, action)
                     
-                    move_count += 1  # 新增：每走一步，计数器加 1
-                    time.sleep(0.01)  # 轻微延迟，防止 CPU 占用过高
+                    move_count += 1  
+                    time.sleep(0.01)  
                 result = game.getGameEnded(board, 1)
                 
                 if result != 0:
@@ -126,7 +117,7 @@ def run_mcts_budget_sweep():
                 accumulated_time += (time.time() - game_start_time)
                 
                 print(f"Game {g+1}/{total_games} | {two_n}-Sims Wins: {wins_2N} | {n}-Sims Wins: {wins_N} | Draws: {draws}", end='\r', flush=True)
-                sys.stdout.flush() # 强制立刻刷新
+                sys.stdout.flush() 
                 if (g + 1) % 10 == 0 or (g + 1) == total_games:
                     state = {
                         'pair_idx': pair_idx,
@@ -143,18 +134,14 @@ def run_mcts_budget_sweep():
                             pickle.dump(state, f)
                         os.replace(safe_tmp_file, ckpt_file)
                     except OSError as e:
-                        # 如果刚好碰上杀毒软件锁文件，不报错闪退，只是跳过这一次保存
                         pass
                 
-                # 一局打完，立刻粉碎这两个大脑的内存
                 del mcts_N, mcts_2N
                 if torch.cuda.is_available():
                    torch.cuda.empty_cache()
                 
-            # 每打完一组 400 局，进行一次深度的垃圾回收
             gc.collect() 
                 
-            # --- 一组 N vs 2N 打完 ---
             win_rate_2N = (wins_2N / total_games) * 100
             print(f"\nMatchup {n} vs {two_n} Finished in {accumulated_time:.1f}s.")
             print(f"Result: {two_n}-Sims won {win_rate_2N:.1f}% of games.")
@@ -169,7 +156,6 @@ def run_mcts_budget_sweep():
                 'time': accumulated_time
             })
             start_game_idx = total_games
-            # 准备下一组测试的环境变量清零
             start_game_idx = 0
             wins_N = 0
             wins_2N = 0
@@ -178,13 +164,9 @@ def run_mcts_budget_sweep():
             
             gc.collect()
 
-    # 所有测试完美跑完，清理临时断点文件
     if os.path.exists(ckpt_file):
         os.remove(ckpt_file)
 
-    # ==========================
-    # 打印终端表格并生成 PNG 图片
-    # ==========================
 
     print("\n" + "="*80)
     print("MCTS Budget Sweep Test Results (400 Games per Matchup)")
@@ -200,9 +182,6 @@ def run_mcts_budget_sweep():
         print(row)
     print("="*80)
     
-    # --------------------------
-    # 绘制高清 PNG 表格
-    # --------------------------
     import matplotlib.pyplot as plt
     
     save_dir = "TRAINNING_CHARTS"
