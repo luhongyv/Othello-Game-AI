@@ -66,11 +66,11 @@ def collect_expert_data(num_games=100, time_limit=0.5, save_name="expert_data_te
         print("Target number of games already reached. No further generation required.")
         return
 
-    # 记录全局开始时间
+    # Record global start time
     global_start_time = time.time()
     
     for g in range(start_game, num_games):
-        game_start_time = time.time()  # 记录单局开始时间
+        game_start_time = time.time()  # Record single game start time
         
         board = game.getInitBoard()
         cur_player = 1
@@ -103,7 +103,7 @@ def collect_expert_data(num_games=100, time_limit=0.5, save_name="expert_data_te
                 
             dataset.append((step['state'], step['policy'], reward))
             
-        # 统计单局时间与总耗时
+        # Aggregate single game time and total elapsed time
         game_elapsed = time.time() - game_start_time
         total_elapsed = time.time() - global_start_time
         avg_time_per_game = total_elapsed / ((g + 1) - start_game)
@@ -115,7 +115,7 @@ def collect_expert_data(num_games=100, time_limit=0.5, save_name="expert_data_te
         if (g + 1) % 10 == 0:
             with open(save_name, 'wb') as f:
                 pickle.dump(dataset, f)
-            print(f">>> Checkpoint saved to {save_name} at Game {g+1}")
+            print(f"Checkpoint saved to {save_name} at Game {g+1}")
             
         gc.collect()    
         
@@ -123,7 +123,7 @@ def collect_expert_data(num_games=100, time_limit=0.5, save_name="expert_data_te
     with open(save_name, 'wb') as f:
         pickle.dump(dataset, f)
         
-    # 计算最终总耗时
+    # Calculate final total elapsed time
     final_total_seconds = time.time() - global_start_time
     final_hours = final_total_seconds // 3600
     final_minutes = (final_total_seconds % 3600) // 60
