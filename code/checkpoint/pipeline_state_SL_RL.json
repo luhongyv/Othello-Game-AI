@@ -1,0 +1,142 @@
+[
+    {
+        "iteration": 1,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 2,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 3,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 4,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 5,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 6,
+        "pwins": 86,
+        "nwins": 314,
+        "draws": 0,
+        "win_rate": 0.215
+    },
+    {
+        "iteration": 7,
+        "pwins": 294,
+        "nwins": 106,
+        "draws": 0,
+        "win_rate": 0.735
+    },
+    {
+        "iteration": 8,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 9,
+        "pwins": 0,
+        "nwins": 400,
+        "draws": 0,
+        "win_rate": 0.0
+    },
+    {
+        "iteration": 10,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 11,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 12,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 13,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 14,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 15,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 16,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 17,
+        "pwins": 200,
+        "nwins": 200,
+        "draws": 0,
+        "win_rate": 0.5
+    },
+    {
+        "iteration": 18,
+        "pwins": 0,
+        "nwins": 400,
+        "draws": 0,
+        "win_rate": 0.0
+    },
+    {
+        "iteration": 19,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    },
+    {
+        "iteration": 20,
+        "pwins": 400,
+        "nwins": 0,
+        "draws": 0,
+        "win_rate": 1.0
+    }
+]

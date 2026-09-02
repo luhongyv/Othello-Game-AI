@@ -1,0 +1,28 @@
+Model loaded: /home3/tszj13/Othello/code/MODELS/model_Pure_RL.pth
+Model loaded: /home3/tszj13/Othello/code/MODELS/model_Pure_RL.pth
+Loaded existing model_Pure_RL.pth. Continuing evolution...
+Found existing pipeline state at /home3/tszj13/Othello/code/checkpoint/pipeline_state_Pure_RL.json!
+Fast-forwarding: Resuming directly from Iteration 2/20
+Found existing replay buffer at /home3/tszj13/Othello/code/checkpoint/replay_buffer_Pure_RL.pkl!
+Successfully loaded 18111 historical samples into replay buffer.
+ AlphaZero Pure RL Evolution Loop Starting...
+========================================================
+
+--------------------------------------------------
+ ITERATION 2/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 100 episodes...
+  -> Episode 1/100 completed.  -> Episode 2/100 completed.  -> Episode 3/100 completed.  -> Episode 4/100 completed.  -> Episode 5/100 completed.  -> Episode 6/100 completed.  -> Episode 7/100 completed.  -> Episode 8/100 completed.  -> Episode 9/100 completed.  -> Episode 10/100 completed.  -> Episode 11/100 completed.  -> Episode 12/100 completed.  -> Episode 13/100 completed.  -> Episode 14/100 completed.  -> Episode 15/100 completed.  -> Episode 16/100 completed.  -> Episode 17/100 completed.  -> Episode 18/100 completed.  -> Episode 19/100 completed.  -> Episode 20/100 completed.  -> Episode 21/100 completed.  -> Episode 22/100 completed.  -> Episode 23/100 completed.  -> Episode 24/100 completed.  -> Episode 25/100 completed.  -> Episode 26/100 completed.  -> Episode 27/100 completed.  -> Episode 28/100 completed.  -> Episode 29/100 completed.  -> Episode 30/100 completed.  -> Episode 31/100 completed.  -> Episode 32/100 completed.  -> Episode 33/100 completed.  -> Episode 34/100 completed.  -> Episode 35/100 completed.  -> Episode 36/100 completed.  -> Episode 37/100 completed.  -> Episode 38/100 completed.  -> Episode 39/100 completed.  -> Episode 40/100 completed.  -> Episode 41/100 completed.  -> Episode 42/100 completed.  -> Episode 43/100 completed.  -> Episode 44/100 completed.  -> Episode 45/100 completed.  -> Episode 46/100 completed.  -> Episode 47/100 completed.  -> Episode 48/100 completed.  -> Episode 49/100 completed.  -> Episode 50/100 completed.  -> Episode 51/100 completed.  -> Episode 52/100 completed.  -> Episode 53/100 completed.  -> Episode 54/100 completed.  -> Episode 55/100 completed.  -> Episode 56/100 completed.  -> Episode 57/100 completed.  -> Episode 58/100 completed.  -> Episode 59/100 completed.  -> Episode 60/100 completed.  -> Episode 61/100 completed.Traceback (most recent call last):
+  File "Trainning_Model_Pure_RL.py", line 343, in <module>
+    pipeline.learn()
+  File "Trainning_Model_Pure_RL.py", line 275, in learn
+    new_examples = self.execute_episode()
+  File "Trainning_Model_Pure_RL.py", line 193, in execute_episode
+    pi = mcts.getAction(canonical_board, temp=temp)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 646, in getAction
+    self.search(canonicalBoard, depth=0)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 737, in search
+    v = self.search(next_s, depth=depth + 1)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 717, in search
+    u = self.Qsa[(s, a)] + self.c_puct * self.Ps[s][a] * math.sqrt(self.Ns[s]) / (1 + self.Nsa[(s, a)])
+KeyboardInterrupt

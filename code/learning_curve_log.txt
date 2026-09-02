@@ -1,0 +1,1748 @@
+========== TOURNAMENT START: Pure_RL_Iter_5 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-09 03:48:42
+
+[Phase 1] Pure_RL_Iter_5 (Black) vs Greedy_Baseline (White)
+========== TOURNAMENT START: Pure_RL_Iter_5 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-09 03:49:54
+
+[Phase 1] Pure_RL_Iter_5 (Black) vs Greedy_Baseline (White)
+========== TOURNAMENT START: Pure_RL_Iter_5 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-09 10:10:35
+
+[Phase 1] Pure_RL_Iter_5 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 25, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 71, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 94, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 116, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 140, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 161, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 183, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 207, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 226, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 250, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 275, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 299, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 323, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 347, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 371, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 393, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 416, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 437, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 461, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 484, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 507, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 532, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 554, P2 Wins: 46, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 578, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 600, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 623, P2 Wins: 52, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 645, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 666, P2 Wins: 59, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 687, P2 Wins: 63, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 711, P2 Wins: 64, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 734, P2 Wins: 66, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 757, P2 Wins: 68, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 779, P2 Wins: 71, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 803, P2 Wins: 72, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 827, P2 Wins: 73, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 851, P2 Wins: 74, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 874, P2 Wins: 76, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 898, P2 Wins: 77, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 922, P2 Wins: 78, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_5 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 944, P2 Wins: 81, Draws: 0
+========== TOURNAMENT START: Pure_RL_Iter_5 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-09 17:40:44
+
+[Phase 1] Pure_RL_Iter_5 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 24, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 47, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 72, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 96, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 121, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 145, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 168, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 192, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 213, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 237, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 260, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 284, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 309, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 332, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 357, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 376, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 398, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 420, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 445, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 469, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 492, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 514, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 537, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 561, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 584, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 603, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 626, P2 Wins: 49, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 650, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 672, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 693, P2 Wins: 57, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 716, P2 Wins: 59, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 739, P2 Wins: 61, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 764, P2 Wins: 61, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 788, P2 Wins: 62, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 811, P2 Wins: 64, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 834, P2 Wins: 66, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 858, P2 Wins: 67, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 883, P2 Wins: 67, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 907, P2 Wins: 68, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 930, P2 Wins: 70, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_5 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 954, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 975, P2 Wins: 75, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 999, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1021, P2 Wins: 79, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1042, P2 Wins: 83, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1065, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1089, P2 Wins: 86, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1113, P2 Wins: 87, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1136, P2 Wins: 89, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1160, P2 Wins: 90, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1181, P2 Wins: 94, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1204, P2 Wins: 96, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1228, P2 Wins: 97, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1251, P2 Wins: 99, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1275, P2 Wins: 100, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1299, P2 Wins: 101, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1324, P2 Wins: 101, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1347, P2 Wins: 103, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1371, P2 Wins: 104, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1394, P2 Wins: 106, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1418, P2 Wins: 107, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1438, P2 Wins: 112, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1461, P2 Wins: 114, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1486, P2 Wins: 114, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1511, P2 Wins: 114, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1535, P2 Wins: 115, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1558, P2 Wins: 117, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1582, P2 Wins: 118, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1607, P2 Wins: 118, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1631, P2 Wins: 119, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1655, P2 Wins: 120, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1678, P2 Wins: 122, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1703, P2 Wins: 122, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1726, P2 Wins: 124, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1748, P2 Wins: 127, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1771, P2 Wins: 129, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1795, P2 Wins: 130, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1817, P2 Wins: 133, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1841, P2 Wins: 134, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1863, P2 Wins: 137, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.76 Hours
+ Pure_RL_Iter_5 Wins : 1863 (93.2%)
+ Greedy_Baseline Wins : 137 (6.9%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Iter_5): 93.15% ± 1.11% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 6.85% ± 1.11% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Iter_8 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-10 07:26:35
+
+[Phase 1] Pure_RL_Iter_8 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 25, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 72, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 97, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 120, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 144, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 168, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 189, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 211, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 235, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 260, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 285, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 309, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 333, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 357, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 381, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 405, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 429, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 453, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 475, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 499, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 522, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 546, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 571, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 595, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 620, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 644, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 668, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 690, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 714, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 738, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 763, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 787, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 809, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 832, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 855, P2 Wins: 45, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 875, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 899, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 924, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 948, P2 Wins: 52, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_8 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 973, P2 Wins: 52, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 997, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1022, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1045, P2 Wins: 55, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1069, P2 Wins: 56, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1091, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1116, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1141, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1165, P2 Wins: 60, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1188, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1211, P2 Wins: 64, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1234, P2 Wins: 66, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1257, P2 Wins: 68, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1281, P2 Wins: 69, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1305, P2 Wins: 70, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1329, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1353, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1377, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1400, P2 Wins: 75, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1424, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1449, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1474, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1496, P2 Wins: 79, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1521, P2 Wins: 79, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1546, P2 Wins: 79, Draws: 0
+========== TOURNAMENT START: Pure_RL_Iter_8 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-10 18:26:24
+
+[Phase 1] Pure_RL_Iter_8 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 24, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 73, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 98, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 122, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 144, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 169, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 191, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 213, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 236, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 261, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 286, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 310, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 335, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 359, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 384, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 406, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 431, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 455, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 479, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 502, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 527, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 550, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 573, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 596, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 621, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 646, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 669, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 693, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 716, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 741, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 766, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 789, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 813, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 838, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 861, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 884, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 908, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 930, P2 Wins: 45, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 954, P2 Wins: 46, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_8 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 977, P2 Wins: 48, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 1002, P2 Wins: 48, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1026, P2 Wins: 49, Draws: 0
+========== TOURNAMENT START: Pure_RL_Iter_8 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-11 02:57:08
+
+[Phase 1] Pure_RL_Iter_8 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 24, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 49, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 74, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 99, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 123, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 147, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 171, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 196, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 219, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 243, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 266, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 290, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 315, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 339, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 364, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 387, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 412, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 436, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 459, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 484, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 509, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 532, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 556, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 579, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 604, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 628, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 652, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 677, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 701, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 725, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 750, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 772, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 795, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 819, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 843, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 868, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 893, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 917, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 942, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 964, P2 Wins: 36, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_8 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 987, P2 Wins: 38, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 1012, P2 Wins: 38, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1036, P2 Wins: 39, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1061, P2 Wins: 39, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1085, P2 Wins: 40, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1110, P2 Wins: 40, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1134, P2 Wins: 41, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1158, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1183, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1208, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1232, P2 Wins: 43, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1255, P2 Wins: 45, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1277, P2 Wins: 48, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1301, P2 Wins: 49, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1325, P2 Wins: 50, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1349, P2 Wins: 51, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1372, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1397, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1421, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1445, P2 Wins: 55, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1469, P2 Wins: 56, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1493, P2 Wins: 57, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1518, P2 Wins: 57, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1542, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1565, P2 Wins: 60, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1589, P2 Wins: 61, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1612, P2 Wins: 63, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1634, P2 Wins: 66, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1658, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1683, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1707, P2 Wins: 68, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1730, P2 Wins: 70, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1754, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1778, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1803, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1828, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1853, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1877, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1901, P2 Wins: 74, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1926, P2 Wins: 74, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.17 Hours
+ Pure_RL_Iter_8 Wins : 1926 (96.3%)
+ Greedy_Baseline Wins : 74 (3.7%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Iter_8): 96.30% ± 0.83% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 3.70% ± 0.83% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Iter_13 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-11 16:07:31
+
+[Phase 1] Pure_RL_Iter_13 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 46, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 70, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 95, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 119, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 143, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 166, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 189, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 214, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 238, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 262, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 284, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 306, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 331, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 354, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 379, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 403, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 426, P2 Wins: 24, Draws: 0
+========== TOURNAMENT START: Pure_RL_Iter_13 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-11 19:13:31
+
+[Phase 1] Pure_RL_Iter_13 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 25, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 50, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 75, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 100, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 124, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 149, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 173, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 198, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 221, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 245, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 269, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 292, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 317, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 341, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 363, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 387, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 410, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 434, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 457, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 482, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 507, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 532, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 557, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 582, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 606, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 628, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 652, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 675, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 699, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 723, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 748, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 773, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 796, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 821, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 844, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 868, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 893, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 918, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 942, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 967, P2 Wins: 33, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_13 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 990, P2 Wins: 35, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 1015, P2 Wins: 35, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1040, P2 Wins: 35, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1065, P2 Wins: 35, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1089, P2 Wins: 36, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1114, P2 Wins: 36, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1136, P2 Wins: 39, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1159, P2 Wins: 41, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1184, P2 Wins: 41, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1208, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1233, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1258, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1281, P2 Wins: 44, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1304, P2 Wins: 46, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1328, P2 Wins: 47, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1351, P2 Wins: 49, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1375, P2 Wins: 50, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1398, P2 Wins: 52, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1422, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1447, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1471, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1495, P2 Wins: 55, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1518, P2 Wins: 57, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1543, P2 Wins: 57, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1568, P2 Wins: 57, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1592, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1616, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1641, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1666, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1690, P2 Wins: 60, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1714, P2 Wins: 61, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1739, P2 Wins: 61, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1763, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1788, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1813, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1838, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1863, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1887, P2 Wins: 63, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1912, P2 Wins: 63, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1934, P2 Wins: 66, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.59 Hours
+ Pure_RL_Iter_13 Wins : 1934 (96.7%)
+ Greedy_Baseline Wins : 66 (3.3%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Iter_13): 96.70% ± 0.78% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 3.30% ± 0.78% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Iter_18 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-12 08:49:07
+
+[Phase 1] Pure_RL_Iter_18 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 25, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 73, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 97, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 122, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 146, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 169, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 191, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 216, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 241, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 266, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 291, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 316, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 341, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 365, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 390, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 414, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 439, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 463, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 486, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 510, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 533, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 557, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 582, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 604, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 629, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 653, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 678, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 703, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 727, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 751, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 776, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 801, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 825, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 850, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 875, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 900, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 923, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 947, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 972, P2 Wins: 28, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_18 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 996, P2 Wins: 29, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 1020, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1045, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1070, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1095, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1120, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1145, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1170, P2 Wins: 30, Draws: 0
+========== TOURNAMENT START: Pure_RL_Iter_18 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-12 16:40:01
+
+[Phase 1] Pure_RL_Iter_18 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 24, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 49, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 72, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 96, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 120, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 143, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 166, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 190, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 213, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 238, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 262, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 286, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 309, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 334, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 359, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 383, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 408, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 432, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 457, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 480, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 504, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 529, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 553, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 578, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 603, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 628, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 649, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 674, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 698, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 722, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 746, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 771, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 795, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 819, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 844, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 868, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 892, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 914, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 938, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 962, P2 Wins: 38, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_18 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 987, P2 Wins: 38, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 1012, P2 Wins: 38, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1034, P2 Wins: 41, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1059, P2 Wins: 41, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1083, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1107, P2 Wins: 43, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1132, P2 Wins: 43, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1157, P2 Wins: 43, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1181, P2 Wins: 44, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1204, P2 Wins: 46, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1228, P2 Wins: 47, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1252, P2 Wins: 48, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1277, P2 Wins: 48, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1300, P2 Wins: 50, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1324, P2 Wins: 51, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1349, P2 Wins: 51, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1373, P2 Wins: 52, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1396, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1421, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1446, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1471, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1496, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1521, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1545, P2 Wins: 55, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1569, P2 Wins: 56, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1594, P2 Wins: 56, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1618, P2 Wins: 57, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1642, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1667, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1692, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1717, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1742, P2 Wins: 58, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1766, P2 Wins: 59, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1789, P2 Wins: 61, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1811, P2 Wins: 64, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1835, P2 Wins: 65, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1860, P2 Wins: 65, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1885, P2 Wins: 65, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1909, P2 Wins: 66, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1932, P2 Wins: 68, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.16 Hours
+ Pure_RL_Iter_18 Wins : 1932 (96.6%)
+ Greedy_Baseline Wins : 68 (3.4%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Iter_18): 96.60% ± 0.79% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 3.40% ± 0.79% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Final vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-13 05:49:36
+
+[Phase 1] Pure_RL_Final (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 46, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 69, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 94, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 118, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 139, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 164, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 189, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 213, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 238, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 261, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 285, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 310, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 335, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 360, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 384, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 409, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 433, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 457, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 482, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 507, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 532, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 557, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 582, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 605, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 628, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 652, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 676, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 700, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 724, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 749, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 774, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 799, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 822, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 847, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 872, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 896, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 921, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 944, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 969, P2 Wins: 31, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Final (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 994, P2 Wins: 31, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 1018, P2 Wins: 32, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1043, P2 Wins: 32, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1067, P2 Wins: 33, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1092, P2 Wins: 33, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1114, P2 Wins: 36, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1138, P2 Wins: 37, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1162, P2 Wins: 38, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1186, P2 Wins: 39, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1211, P2 Wins: 39, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1234, P2 Wins: 41, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1258, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1283, P2 Wins: 42, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1307, P2 Wins: 43, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1330, P2 Wins: 45, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1354, P2 Wins: 46, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1376, P2 Wins: 49, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1401, P2 Wins: 49, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1425, P2 Wins: 50, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1448, P2 Wins: 52, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1472, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1496, P2 Wins: 54, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1520, P2 Wins: 55, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1545, P2 Wins: 55, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1569, P2 Wins: 56, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1594, P2 Wins: 56, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1615, P2 Wins: 60, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1638, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1663, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1688, P2 Wins: 62, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1712, P2 Wins: 63, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1737, P2 Wins: 63, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1761, P2 Wins: 64, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1786, P2 Wins: 64, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1811, P2 Wins: 64, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1835, P2 Wins: 65, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1860, P2 Wins: 65, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1884, P2 Wins: 66, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1908, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1932, P2 Wins: 68, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.97 Hours
+ Pure_RL_Final Wins : 1932 (96.6%)
+ Greedy_Baseline Wins : 68 (3.4%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Final): 96.60% ± 0.79% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 3.40% ± 0.79% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_5 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-13 19:47:31
+
+[Phase 1] SL_RL_Hybrid_Iter_5 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 24, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 69, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 90, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 114, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 136, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 161, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 186, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 211, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 233, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 258, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 280, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 303, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 328, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 350, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 371, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 396, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 420, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 443, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 466, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 491, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 516, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 537, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 560, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 584, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 606, P2 Wins: 44, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 629, P2 Wins: 46, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 653, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 676, P2 Wins: 49, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 700, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 724, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 749, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 773, P2 Wins: 52, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 797, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 819, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 843, P2 Wins: 57, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 867, P2 Wins: 58, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 892, P2 Wins: 58, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 913, P2 Wins: 62, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 936, P2 Wins: 64, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_5 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 959, P2 Wins: 66, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 983, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1005, P2 Wins: 70, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1030, P2 Wins: 70, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1054, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1077, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1100, P2 Wins: 75, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1124, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1149, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1173, P2 Wins: 77, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1196, P2 Wins: 79, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1221, P2 Wins: 79, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1244, P2 Wins: 81, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1267, P2 Wins: 83, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1291, P2 Wins: 84, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1315, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1340, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1363, P2 Wins: 87, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1387, P2 Wins: 88, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1410, P2 Wins: 90, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1432, P2 Wins: 93, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1455, P2 Wins: 95, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1476, P2 Wins: 99, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1500, P2 Wins: 100, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1524, P2 Wins: 101, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1547, P2 Wins: 103, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1570, P2 Wins: 105, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1592, P2 Wins: 108, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1617, P2 Wins: 108, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1641, P2 Wins: 109, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1662, P2 Wins: 113, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1685, P2 Wins: 115, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1710, P2 Wins: 115, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1734, P2 Wins: 116, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1756, P2 Wins: 119, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1780, P2 Wins: 120, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1804, P2 Wins: 121, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1828, P2 Wins: 122, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1852, P2 Wins: 123, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1872, P2 Wins: 128, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 12.63 Hours
+ SL_RL_Hybrid_Iter_5 Wins : 1872 (93.6%)
+ Greedy_Baseline Wins : 128 (6.4%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Iter_5): 93.60% ± 1.07% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 6.40% ± 1.07% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_8 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-14 08:25:32
+
+[Phase 1] SL_RL_Hybrid_Iter_8 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 21, P2 Wins: 4, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_8 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-14 10:00:34
+
+[Phase 1] SL_RL_Hybrid_Iter_8 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 25, P2 Wins: 0, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 45, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 68, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 90, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 110, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 131, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 156, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 179, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 202, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 221, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 245, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 269, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 293, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 315, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 339, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 363, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 387, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 410, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 433, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 456, P2 Wins: 44, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_8 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-14 13:05:51
+
+[Phase 1] SL_RL_Hybrid_Iter_8 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 21, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 45, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 66, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 89, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 113, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 136, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 157, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 180, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 203, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 225, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 246, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 267, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 289, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 310, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 333, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 357, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 375, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 395, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 420, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 443, P2 Wins: 57, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 465, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 487, P2 Wins: 63, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 508, P2 Wins: 67, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 531, P2 Wins: 69, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 554, P2 Wins: 71, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 577, P2 Wins: 73, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 600, P2 Wins: 75, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 622, P2 Wins: 78, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 647, P2 Wins: 78, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 668, P2 Wins: 82, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 691, P2 Wins: 84, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 714, P2 Wins: 86, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 738, P2 Wins: 87, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 760, P2 Wins: 90, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 780, P2 Wins: 95, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 801, P2 Wins: 99, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 825, P2 Wins: 100, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 848, P2 Wins: 102, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 869, P2 Wins: 106, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 893, P2 Wins: 107, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_8 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 916, P2 Wins: 109, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 939, P2 Wins: 111, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 959, P2 Wins: 116, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 983, P2 Wins: 117, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1004, P2 Wins: 121, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1026, P2 Wins: 124, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1050, P2 Wins: 125, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1075, P2 Wins: 125, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1098, P2 Wins: 127, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1121, P2 Wins: 129, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1145, P2 Wins: 130, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1168, P2 Wins: 132, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1192, P2 Wins: 133, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1213, P2 Wins: 137, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1237, P2 Wins: 138, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1262, P2 Wins: 138, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1284, P2 Wins: 141, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1309, P2 Wins: 141, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1332, P2 Wins: 143, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1352, P2 Wins: 148, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1374, P2 Wins: 151, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1396, P2 Wins: 154, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1421, P2 Wins: 154, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1444, P2 Wins: 156, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1467, P2 Wins: 158, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1491, P2 Wins: 159, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1515, P2 Wins: 160, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1537, P2 Wins: 163, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1561, P2 Wins: 164, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1583, P2 Wins: 167, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1606, P2 Wins: 169, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1629, P2 Wins: 171, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1653, P2 Wins: 172, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1677, P2 Wins: 173, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1699, P2 Wins: 176, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1720, P2 Wins: 180, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1744, P2 Wins: 181, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1767, P2 Wins: 183, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1787, P2 Wins: 188, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1809, P2 Wins: 191, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 11.80 Hours
+ SL_RL_Hybrid_Iter_8 Wins : 1809 (90.5%)
+ Greedy_Baseline Wins : 191 (9.6%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Iter_8): 90.45% ± 1.29% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 9.55% ± 1.29% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_14 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-15 00:53:38
+
+[Phase 1] SL_RL_Hybrid_Iter_14 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 24, P2 Wins: 1, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 47, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 68, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 91, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 116, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 140, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 163, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 188, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 211, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 234, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 258, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 281, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 305, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 329, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 353, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 378, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 398, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 421, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 441, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 466, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 489, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 514, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 538, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 560, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 583, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 607, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 632, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 654, P2 Wins: 46, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 676, P2 Wins: 49, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 700, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 723, P2 Wins: 52, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 746, P2 Wins: 54, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 770, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 794, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 817, P2 Wins: 58, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 840, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 863, P2 Wins: 62, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 886, P2 Wins: 64, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 909, P2 Wins: 66, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 931, P2 Wins: 69, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_14 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 955, P2 Wins: 70, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 979, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1004, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1028, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1052, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1075, P2 Wins: 75, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1099, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1121, P2 Wins: 79, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1145, P2 Wins: 80, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1170, P2 Wins: 80, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1194, P2 Wins: 81, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1218, P2 Wins: 82, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1242, P2 Wins: 83, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1266, P2 Wins: 84, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1291, P2 Wins: 84, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1315, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1337, P2 Wins: 88, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1360, P2 Wins: 90, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1385, P2 Wins: 90, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1408, P2 Wins: 92, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1433, P2 Wins: 92, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1456, P2 Wins: 94, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1477, P2 Wins: 98, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1500, P2 Wins: 100, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1523, P2 Wins: 102, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1546, P2 Wins: 104, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1571, P2 Wins: 104, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1595, P2 Wins: 105, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1620, P2 Wins: 105, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1644, P2 Wins: 106, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1667, P2 Wins: 108, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1690, P2 Wins: 110, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1714, P2 Wins: 111, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1739, P2 Wins: 111, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1764, P2 Wins: 111, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1788, P2 Wins: 112, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1813, P2 Wins: 112, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1838, P2 Wins: 112, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1863, P2 Wins: 112, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1888, P2 Wins: 112, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 12.04 Hours
+ SL_RL_Hybrid_Iter_14 Wins : 1888 (94.4%)
+ Greedy_Baseline Wins : 112 (5.6%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Iter_14): 94.40% ± 1.01% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 5.60% ± 1.01% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_19 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-15 12:56:14
+
+[Phase 1] SL_RL_Hybrid_Iter_19 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 22, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 43, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 64, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 87, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 109, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 133, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 156, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 180, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 203, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 225, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 250, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 274, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 299, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 324, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 347, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 371, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 395, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 419, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 442, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 467, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 491, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 512, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 536, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 561, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 586, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 610, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 633, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 656, P2 Wins: 44, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 678, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 702, P2 Wins: 48, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 727, P2 Wins: 48, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 751, P2 Wins: 49, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 774, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 797, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 819, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 843, P2 Wins: 57, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 865, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 887, P2 Wins: 63, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 911, P2 Wins: 64, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 935, P2 Wins: 65, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_19 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 960, P2 Wins: 65, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 983, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1007, P2 Wins: 68, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1029, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1054, P2 Wins: 71, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1078, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1102, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1126, P2 Wins: 74, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1151, P2 Wins: 74, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1175, P2 Wins: 75, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1199, P2 Wins: 76, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1219, P2 Wins: 81, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1244, P2 Wins: 81, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1268, P2 Wins: 82, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1292, P2 Wins: 83, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1315, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1340, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1365, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1388, P2 Wins: 87, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1412, P2 Wins: 88, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1434, P2 Wins: 91, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1458, P2 Wins: 92, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1481, P2 Wins: 94, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1505, P2 Wins: 95, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1529, P2 Wins: 96, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1553, P2 Wins: 97, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1577, P2 Wins: 98, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1601, P2 Wins: 99, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1624, P2 Wins: 101, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1646, P2 Wins: 104, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1667, P2 Wins: 108, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1691, P2 Wins: 109, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1713, P2 Wins: 112, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1735, P2 Wins: 115, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1760, P2 Wins: 115, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1784, P2 Wins: 116, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1807, P2 Wins: 118, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_19 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-15 23:50:35
+
+[Phase 1] SL_RL_Hybrid_Iter_19 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 45, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 70, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 92, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 115, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 140, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 163, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 186, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 210, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 233, P2 Wins: 17, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 255, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 280, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 303, P2 Wins: 22, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_19 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-16 03:06:39
+
+[Phase 1] SL_RL_Hybrid_Iter_19 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 45, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 70, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 91, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 112, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 134, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 157, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 178, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 202, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 226, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 249, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 274, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 299, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 322, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 346, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 367, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 391, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 414, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 437, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 460, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 482, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 505, P2 Wins: 45, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 528, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 552, P2 Wins: 48, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 575, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 599, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 624, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 649, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 674, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 697, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 721, P2 Wins: 54, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 745, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 769, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 794, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 819, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 841, P2 Wins: 59, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 865, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 890, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 912, P2 Wins: 63, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 936, P2 Wins: 64, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_19 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 958, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 981, P2 Wins: 69, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 1005, P2 Wins: 70, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1028, P2 Wins: 72, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1052, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1077, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1100, P2 Wins: 75, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1123, P2 Wins: 77, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1145, P2 Wins: 80, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1170, P2 Wins: 80, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1194, P2 Wins: 81, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1217, P2 Wins: 83, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1240, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1264, P2 Wins: 86, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1289, P2 Wins: 86, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1313, P2 Wins: 87, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1338, P2 Wins: 87, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1363, P2 Wins: 87, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1387, P2 Wins: 88, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1411, P2 Wins: 89, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1436, P2 Wins: 89, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1459, P2 Wins: 91, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1483, P2 Wins: 92, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1507, P2 Wins: 93, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1532, P2 Wins: 93, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1555, P2 Wins: 95, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1579, P2 Wins: 96, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1604, P2 Wins: 96, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1627, P2 Wins: 98, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1650, P2 Wins: 100, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1674, P2 Wins: 101, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1698, P2 Wins: 102, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1723, P2 Wins: 102, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1747, P2 Wins: 103, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1771, P2 Wins: 104, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1794, P2 Wins: 106, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1817, P2 Wins: 108, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1841, P2 Wins: 109, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1864, P2 Wins: 111, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1889, P2 Wins: 111, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 11.52 Hours
+ SL_RL_Hybrid_Iter_19 Wins : 1889 (94.5%)
+ Greedy_Baseline Wins : 111 (5.5%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Iter_19): 94.45% ± 1.00% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 5.55% ± 1.00% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Final vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-16 14:37:41
+
+[Phase 1] SL_RL_Hybrid_Final (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 21, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 46, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 69, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 90, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 113, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 137, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 161, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 184, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 207, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 232, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 253, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 275, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 298, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 320, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 343, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 364, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 387, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 409, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 430, P2 Wins: 45, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 453, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 474, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 494, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 518, P2 Wins: 57, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 540, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 565, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 586, P2 Wins: 64, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 608, P2 Wins: 67, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 629, P2 Wins: 71, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 651, P2 Wins: 74, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 674, P2 Wins: 76, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 695, P2 Wins: 80, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 719, P2 Wins: 81, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 742, P2 Wins: 83, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 763, P2 Wins: 87, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 785, P2 Wins: 90, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 806, P2 Wins: 94, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 830, P2 Wins: 95, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 853, P2 Wins: 97, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 876, P2 Wins: 99, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 900, P2 Wins: 100, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Final (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 922, P2 Wins: 103, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 945, P2 Wins: 105, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 969, P2 Wins: 106, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 990, P2 Wins: 110, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1015, P2 Wins: 110, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1035, P2 Wins: 115, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1059, P2 Wins: 116, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1081, P2 Wins: 119, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1104, P2 Wins: 121, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1129, P2 Wins: 121, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1151, P2 Wins: 124, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1173, P2 Wins: 127, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1196, P2 Wins: 129, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1217, P2 Wins: 133, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1239, P2 Wins: 136, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1261, P2 Wins: 139, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1285, P2 Wins: 140, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1304, P2 Wins: 146, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1322, P2 Wins: 153, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1347, P2 Wins: 153, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1368, P2 Wins: 157, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1388, P2 Wins: 162, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1413, P2 Wins: 162, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1435, P2 Wins: 165, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1457, P2 Wins: 168, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1479, P2 Wins: 171, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1501, P2 Wins: 174, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1524, P2 Wins: 176, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1543, P2 Wins: 182, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1563, P2 Wins: 187, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1585, P2 Wins: 190, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1605, P2 Wins: 195, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1629, P2 Wins: 196, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1652, P2 Wins: 198, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1674, P2 Wins: 201, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1697, P2 Wins: 203, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1722, P2 Wins: 203, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1743, P2 Wins: 207, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1766, P2 Wins: 209, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1784, P2 Wins: 216, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 11.37 Hours
+ SL_RL_Hybrid_Final Wins : 1784 (89.2%)
+ Greedy_Baseline Wins : 216 (10.8%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Final): 89.20% ± 1.36% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 10.80% ± 1.36% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Iter_2 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-18 04:27:11
+
+[Phase 1] Pure_RL_Iter_2 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 21, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 41, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 65, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 88, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 109, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 128, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 148, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 169, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 188, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 212, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 233, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 256, P2 Wins: 44, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 278, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 297, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 320, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 344, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 365, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 388, P2 Wins: 62, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 409, P2 Wins: 66, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 429, P2 Wins: 71, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 448, P2 Wins: 77, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 470, P2 Wins: 80, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 491, P2 Wins: 84, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 515, P2 Wins: 85, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 536, P2 Wins: 89, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 557, P2 Wins: 93, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 579, P2 Wins: 96, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 602, P2 Wins: 98, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 626, P2 Wins: 99, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 647, P2 Wins: 103, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 671, P2 Wins: 104, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 693, P2 Wins: 107, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 714, P2 Wins: 111, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 737, P2 Wins: 113, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 762, P2 Wins: 113, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 782, P2 Wins: 118, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 803, P2 Wins: 122, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 826, P2 Wins: 124, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 849, P2 Wins: 126, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 871, P2 Wins: 129, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs Pure_RL_Iter_2 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 893, P2 Wins: 132, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 917, P2 Wins: 133, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 939, P2 Wins: 136, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 962, P2 Wins: 138, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 984, P2 Wins: 141, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1004, P2 Wins: 146, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1024, P2 Wins: 151, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1047, P2 Wins: 153, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1067, P2 Wins: 158, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1087, P2 Wins: 163, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1110, P2 Wins: 165, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1131, P2 Wins: 169, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1149, P2 Wins: 176, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1173, P2 Wins: 177, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1194, P2 Wins: 181, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1216, P2 Wins: 184, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1238, P2 Wins: 187, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1260, P2 Wins: 190, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1282, P2 Wins: 193, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1303, P2 Wins: 197, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1322, P2 Wins: 203, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1344, P2 Wins: 206, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1364, P2 Wins: 211, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1387, P2 Wins: 213, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1412, P2 Wins: 213, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1433, P2 Wins: 217, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1454, P2 Wins: 221, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1476, P2 Wins: 224, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1498, P2 Wins: 227, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1521, P2 Wins: 229, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1544, P2 Wins: 231, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1565, P2 Wins: 235, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1588, P2 Wins: 237, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1610, P2 Wins: 240, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1631, P2 Wins: 244, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1653, P2 Wins: 247, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1677, P2 Wins: 248, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1696, P2 Wins: 254, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1720, P2 Wins: 255, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1743, P2 Wins: 257, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.06 Hours
+ Pure_RL_Iter_2 Wins : 1743 (87.2%)
+ Greedy_Baseline Wins : 257 (12.8%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Iter_2): 87.15% ± 1.47% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 12.85% ± 1.47% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_1 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-18 17:30:45
+
+[Phase 1] SL_RL_Hybrid_Iter_1 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 70, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 94, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 117, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 137, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 161, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 185, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 209, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 232, P2 Wins: 18, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 256, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 276, P2 Wins: 24, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 300, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 323, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 346, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 368, P2 Wins: 32, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 390, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 414, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 436, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 460, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 482, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 503, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 522, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 546, P2 Wins: 54, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 569, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 587, P2 Wins: 63, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 610, P2 Wins: 65, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 632, P2 Wins: 68, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 654, P2 Wins: 71, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 677, P2 Wins: 73, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 701, P2 Wins: 74, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 720, P2 Wins: 80, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 745, P2 Wins: 80, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 765, P2 Wins: 85, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_1 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-18 23:38:12
+
+[Phase 1] SL_RL_Hybrid_Iter_1 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 45, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 68, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 93, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 114, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 138, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 163, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 185, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 205, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 229, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 252, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 275, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 298, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 323, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 346, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 371, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 392, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 415, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 440, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 465, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 488, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 509, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 533, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 557, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 579, P2 Wins: 46, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 601, P2 Wins: 49, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_1 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-19 04:18:01
+
+[Phase 1] SL_RL_Hybrid_Iter_1 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 23, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 47, P2 Wins: 3, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 71, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 94, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 118, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 142, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 165, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 189, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 213, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 238, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 260, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 284, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 306, P2 Wins: 19, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 329, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 354, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 377, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 400, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 424, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 448, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 470, P2 Wins: 30, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 492, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 516, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 537, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 562, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 584, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 609, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 632, P2 Wins: 43, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 656, P2 Wins: 44, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 678, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 699, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 722, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 744, P2 Wins: 56, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 764, P2 Wins: 61, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 787, P2 Wins: 63, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 810, P2 Wins: 65, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 832, P2 Wins: 68, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 853, P2 Wins: 72, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 875, P2 Wins: 75, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 897, P2 Wins: 78, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 919, P2 Wins: 81, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_1 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 942, P2 Wins: 83, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 962, P2 Wins: 88, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 981, P2 Wins: 94, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 1004, P2 Wins: 96, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 1025, P2 Wins: 100, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1048, P2 Wins: 102, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1072, P2 Wins: 103, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1095, P2 Wins: 105, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1117, P2 Wins: 108, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1140, P2 Wins: 110, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1159, P2 Wins: 116, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1181, P2 Wins: 119, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1202, P2 Wins: 123, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1222, P2 Wins: 128, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1246, P2 Wins: 129, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1270, P2 Wins: 130, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1293, P2 Wins: 132, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1318, P2 Wins: 132, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1341, P2 Wins: 134, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1362, P2 Wins: 138, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1387, P2 Wins: 138, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1406, P2 Wins: 144, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1427, P2 Wins: 148, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1449, P2 Wins: 151, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1471, P2 Wins: 154, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1493, P2 Wins: 157, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1516, P2 Wins: 159, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1540, P2 Wins: 160, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1561, P2 Wins: 164, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1586, P2 Wins: 164, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1608, P2 Wins: 167, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1632, P2 Wins: 168, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1657, P2 Wins: 168, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1680, P2 Wins: 170, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1705, P2 Wins: 170, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1729, P2 Wins: 171, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1751, P2 Wins: 174, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1775, P2 Wins: 175, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1796, P2 Wins: 179, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1820, P2 Wins: 180, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 13.67 Hours
+ SL_RL_Hybrid_Iter_1 Wins : 1820 (91.0%)
+ Greedy_Baseline Wins : 180 (9.0%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Iter_1): 91.00% ± 1.25% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 9.00% ± 1.25% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Iter_0 vs Greedy_Baseline ==========
+Total Games: 2000 | Random Opening Plies: 4
+Time: 2026-08-20 03:22:08
+
+[Phase 1] SL_RL_Hybrid_Iter_0 (Black) vs Greedy_Baseline (White)
+  [Progress] Phase 1: 25/1000 games done. Current P1 Wins: 20, P2 Wins: 5, Draws: 0
+  [Progress] Phase 1: 50/1000 games done. Current P1 Wins: 43, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 75/1000 games done. Current P1 Wins: 67, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 100/1000 games done. Current P1 Wins: 90, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 125/1000 games done. Current P1 Wins: 112, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 150/1000 games done. Current P1 Wins: 135, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 175/1000 games done. Current P1 Wins: 154, P2 Wins: 21, Draws: 0
+  [Progress] Phase 1: 200/1000 games done. Current P1 Wins: 177, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 225/1000 games done. Current P1 Wins: 198, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 250/1000 games done. Current P1 Wins: 223, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 275/1000 games done. Current P1 Wins: 247, P2 Wins: 28, Draws: 0
+  [Progress] Phase 1: 300/1000 games done. Current P1 Wins: 271, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 325/1000 games done. Current P1 Wins: 292, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 350/1000 games done. Current P1 Wins: 316, P2 Wins: 34, Draws: 0
+  [Progress] Phase 1: 375/1000 games done. Current P1 Wins: 340, P2 Wins: 35, Draws: 0
+  [Progress] Phase 1: 400/1000 games done. Current P1 Wins: 359, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 425/1000 games done. Current P1 Wins: 383, P2 Wins: 42, Draws: 0
+  [Progress] Phase 1: 450/1000 games done. Current P1 Wins: 405, P2 Wins: 45, Draws: 0
+  [Progress] Phase 1: 475/1000 games done. Current P1 Wins: 428, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 500/1000 games done. Current P1 Wins: 449, P2 Wins: 51, Draws: 0
+  [Progress] Phase 1: 525/1000 games done. Current P1 Wins: 473, P2 Wins: 52, Draws: 0
+  [Progress] Phase 1: 550/1000 games done. Current P1 Wins: 496, P2 Wins: 54, Draws: 0
+  [Progress] Phase 1: 575/1000 games done. Current P1 Wins: 520, P2 Wins: 55, Draws: 0
+  [Progress] Phase 1: 600/1000 games done. Current P1 Wins: 542, P2 Wins: 58, Draws: 0
+  [Progress] Phase 1: 625/1000 games done. Current P1 Wins: 561, P2 Wins: 64, Draws: 0
+  [Progress] Phase 1: 650/1000 games done. Current P1 Wins: 581, P2 Wins: 69, Draws: 0
+  [Progress] Phase 1: 675/1000 games done. Current P1 Wins: 602, P2 Wins: 73, Draws: 0
+  [Progress] Phase 1: 700/1000 games done. Current P1 Wins: 624, P2 Wins: 76, Draws: 0
+  [Progress] Phase 1: 725/1000 games done. Current P1 Wins: 646, P2 Wins: 79, Draws: 0
+  [Progress] Phase 1: 750/1000 games done. Current P1 Wins: 668, P2 Wins: 82, Draws: 0
+  [Progress] Phase 1: 775/1000 games done. Current P1 Wins: 692, P2 Wins: 83, Draws: 0
+  [Progress] Phase 1: 800/1000 games done. Current P1 Wins: 712, P2 Wins: 88, Draws: 0
+  [Progress] Phase 1: 825/1000 games done. Current P1 Wins: 733, P2 Wins: 92, Draws: 0
+  [Progress] Phase 1: 850/1000 games done. Current P1 Wins: 754, P2 Wins: 96, Draws: 0
+  [Progress] Phase 1: 875/1000 games done. Current P1 Wins: 777, P2 Wins: 98, Draws: 0
+  [Progress] Phase 1: 900/1000 games done. Current P1 Wins: 800, P2 Wins: 100, Draws: 0
+  [Progress] Phase 1: 925/1000 games done. Current P1 Wins: 823, P2 Wins: 102, Draws: 0
+  [Progress] Phase 1: 950/1000 games done. Current P1 Wins: 843, P2 Wins: 107, Draws: 0
+  [Progress] Phase 1: 975/1000 games done. Current P1 Wins: 863, P2 Wins: 112, Draws: 0
+  [Progress] Phase 1: 1000/1000 games done. Current P1 Wins: 883, P2 Wins: 117, Draws: 0
+
+[Phase 2] Greedy_Baseline (Black) vs SL_RL_Hybrid_Iter_0 (White)
+  [Progress] Phase 2: 25/1000 games done. Current P1 Wins: 905, P2 Wins: 120, Draws: 0
+  [Progress] Phase 2: 50/1000 games done. Current P1 Wins: 927, P2 Wins: 123, Draws: 0
+  [Progress] Phase 2: 75/1000 games done. Current P1 Wins: 946, P2 Wins: 129, Draws: 0
+  [Progress] Phase 2: 100/1000 games done. Current P1 Wins: 971, P2 Wins: 129, Draws: 0
+  [Progress] Phase 2: 125/1000 games done. Current P1 Wins: 994, P2 Wins: 131, Draws: 0
+  [Progress] Phase 2: 150/1000 games done. Current P1 Wins: 1013, P2 Wins: 137, Draws: 0
+  [Progress] Phase 2: 175/1000 games done. Current P1 Wins: 1037, P2 Wins: 138, Draws: 0
+  [Progress] Phase 2: 200/1000 games done. Current P1 Wins: 1060, P2 Wins: 140, Draws: 0
+  [Progress] Phase 2: 225/1000 games done. Current P1 Wins: 1084, P2 Wins: 141, Draws: 0
+  [Progress] Phase 2: 250/1000 games done. Current P1 Wins: 1106, P2 Wins: 144, Draws: 0
+  [Progress] Phase 2: 275/1000 games done. Current P1 Wins: 1129, P2 Wins: 146, Draws: 0
+  [Progress] Phase 2: 300/1000 games done. Current P1 Wins: 1153, P2 Wins: 147, Draws: 0
+  [Progress] Phase 2: 325/1000 games done. Current P1 Wins: 1176, P2 Wins: 149, Draws: 0
+  [Progress] Phase 2: 350/1000 games done. Current P1 Wins: 1197, P2 Wins: 153, Draws: 0
+  [Progress] Phase 2: 375/1000 games done. Current P1 Wins: 1221, P2 Wins: 154, Draws: 0
+  [Progress] Phase 2: 400/1000 games done. Current P1 Wins: 1240, P2 Wins: 160, Draws: 0
+  [Progress] Phase 2: 425/1000 games done. Current P1 Wins: 1262, P2 Wins: 163, Draws: 0
+  [Progress] Phase 2: 450/1000 games done. Current P1 Wins: 1284, P2 Wins: 166, Draws: 0
+  [Progress] Phase 2: 475/1000 games done. Current P1 Wins: 1307, P2 Wins: 168, Draws: 0
+  [Progress] Phase 2: 500/1000 games done. Current P1 Wins: 1331, P2 Wins: 169, Draws: 0
+  [Progress] Phase 2: 525/1000 games done. Current P1 Wins: 1355, P2 Wins: 170, Draws: 0
+  [Progress] Phase 2: 550/1000 games done. Current P1 Wins: 1377, P2 Wins: 173, Draws: 0
+  [Progress] Phase 2: 575/1000 games done. Current P1 Wins: 1400, P2 Wins: 175, Draws: 0
+  [Progress] Phase 2: 600/1000 games done. Current P1 Wins: 1423, P2 Wins: 177, Draws: 0
+  [Progress] Phase 2: 625/1000 games done. Current P1 Wins: 1445, P2 Wins: 180, Draws: 0
+  [Progress] Phase 2: 650/1000 games done. Current P1 Wins: 1470, P2 Wins: 180, Draws: 0
+  [Progress] Phase 2: 675/1000 games done. Current P1 Wins: 1492, P2 Wins: 183, Draws: 0
+  [Progress] Phase 2: 700/1000 games done. Current P1 Wins: 1514, P2 Wins: 186, Draws: 0
+  [Progress] Phase 2: 725/1000 games done. Current P1 Wins: 1537, P2 Wins: 188, Draws: 0
+  [Progress] Phase 2: 750/1000 games done. Current P1 Wins: 1560, P2 Wins: 190, Draws: 0
+  [Progress] Phase 2: 775/1000 games done. Current P1 Wins: 1583, P2 Wins: 192, Draws: 0
+  [Progress] Phase 2: 800/1000 games done. Current P1 Wins: 1607, P2 Wins: 193, Draws: 0
+  [Progress] Phase 2: 825/1000 games done. Current P1 Wins: 1630, P2 Wins: 195, Draws: 0
+  [Progress] Phase 2: 850/1000 games done. Current P1 Wins: 1653, P2 Wins: 197, Draws: 0
+  [Progress] Phase 2: 875/1000 games done. Current P1 Wins: 1672, P2 Wins: 203, Draws: 0
+  [Progress] Phase 2: 900/1000 games done. Current P1 Wins: 1697, P2 Wins: 203, Draws: 0
+  [Progress] Phase 2: 925/1000 games done. Current P1 Wins: 1718, P2 Wins: 207, Draws: 0
+  [Progress] Phase 2: 950/1000 games done. Current P1 Wins: 1741, P2 Wins: 209, Draws: 0
+  [Progress] Phase 2: 975/1000 games done. Current P1 Wins: 1764, P2 Wins: 211, Draws: 0
+  [Progress] Phase 2: 1000/1000 games done. Current P1 Wins: 1787, P2 Wins: 213, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 2000
+ Total Time Taken  : 12.03 Hours
+ SL_RL_Hybrid_Iter_0 Wins : 1787 (89.3%)
+ Greedy_Baseline Wins : 213 (10.7%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Iter_0): 89.35% ± 1.35% (95% CI)
+ Effective Win Rate (Greedy_Baseline): 10.65% ± 1.35% (95% CI)
+=================================================================
+

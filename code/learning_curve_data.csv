@@ -1,0 +1,14 @@
+Algorithm,Iteration_Label,Model_File,Win_Rate_vs_Baseline
+Pure_RL,Iter_5,model_Pure_RL_iter_5.pth,0.931
+Pure_RL,Iter_8,model_Pure_RL_iter_8.pth,0.963
+Pure_RL,Iter_13,model_Pure_RL_iter_13.pth,0.967
+Pure_RL,Iter_18,model_Pure_RL_iter_18.pth,0.966
+Pure_RL,Final,model_Pure_RL.pth,0.966
+SL_RL_Hybrid,Iter_5,model_Greedy_SL_RL_iter_5.pth,0.936
+SL_RL_Hybrid,Iter_8,model_Greedy_SL_RL_iter_8.pth,0.904
+SL_RL_Hybrid,Iter_14,model_Greedy_SL_RL_iter_14.pth,0.944
+SL_RL_Hybrid,Iter_19,model_Greedy_SL_RL_iter_19.pth,0.945
+SL_RL_Hybrid,Final,model_Greedy_SL_RL.pth,0.892
+Pure_RL,Iter_2,model_Pure_RL_iter_2.pth,0.872
+SL_RL_Hybrid,Iter_1,model_Greedy_SL_RL_iter_1.pth,0.91
+SL_RL_Hybrid,Iter_0,model_Greedy_SL.pth,0.893

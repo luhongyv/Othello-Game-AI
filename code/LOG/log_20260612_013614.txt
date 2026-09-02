@@ -1,0 +1,11 @@
+ AlphaZero Infinite Evolution Loop Starting...
+========================================================
+Model loaded: D:\Durham\final work\code\MODELS\best_model.pth
+Model loaded: D:\Durham\final work\code\MODELS\best_model.pth
+Loaded existing best_model.pth. Continuing evolution...
+
+--------------------------------------------------
+ ITERATION 1/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 50 episodes...
+  -> Episode 1/50 completed.  -> Episode 2/50 completed.  -> Episode 3/50 completed.  -> Episode 4/50 completed.  -> Episode 5/50 completed.  -> Episode 6/50 completed.  -> Episode 7/50 completed.  -> Episode 8/50 completed.  -> Episode 9/50 completed.  -> Episode 10/50 completed.  -> Episode 11/50 completed.  -> Episode 12/50 completed.  -> Episode 13/50 completed.  -> Episode 14/50 completed.

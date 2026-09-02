@@ -1,0 +1,664 @@
+ AlphaZero Infinite Evolution Loop Starting...
+========================================================
+Model loaded: D:\Durham\final work\code\MODELS\best_model.pth
+Model loaded: D:\Durham\final work\code\MODELS\best_model.pth
+Loaded existing best_model.pth. Continuing evolution...
+
+--------------------------------------------------
+ ITERATION 1/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1807 new samples.
+  -> Total replay buffer size: 1807
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 4.0803 | Value Loss: 0.8793
+Epoch 02/10 | Policy Loss: 3.8267 | Value Loss: 0.6331
+Epoch 03/10 | Policy Loss: 3.6703 | Value Loss: 0.4222
+Epoch 04/10 | Policy Loss: 3.4955 | Value Loss: 0.2985
+Epoch 05/10 | Policy Loss: 3.3322 | Value Loss: 0.2146
+Epoch 06/10 | Policy Loss: 3.1714 | Value Loss: 0.1914
+Epoch 07/10 | Policy Loss: 2.9832 | Value Loss: 0.1578
+Epoch 08/10 | Policy Loss: 2.7603 | Value Loss: 0.1282
+Epoch 09/10 | Policy Loss: 2.5277 | Value Loss: 0.1025
+Epoch 10/10 | Policy Loss: 2.2198 | Value Loss: 0.0977
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Current_Net
+Game 2/15 finished -> Winner: Best_Net
+Game 3/15 finished -> Winner: Best_Net
+Game 4/15 finished -> Winner: Best_Net
+Game 5/15 finished -> Winner: Best_Net
+Game 6/15 finished -> Winner: Current_Net
+Game 7/15 finished -> Winner: Best_Net
+Game 8/15 finished -> Winner: Best_Net
+Game 9/15 finished -> Winner: Current_Net
+Game 10/15 finished -> Winner: Current_Net
+Game 11/15 finished -> Winner: Current_Net
+Game 12/15 finished -> Winner: Current_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Current_Net
+Game 15/15 finished -> Winner: Best_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Current_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Best_Net
+Game 19/30 finished -> Winner: Best_Net
+Game 20/30 finished -> Winner: Current_Net
+Game 21/30 finished -> Winner: Best_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Best_Net
+Game 24/30 finished -> Winner: Current_Net
+Game 25/30 finished -> Winner: Current_Net
+Game 26/30 finished -> Winner: Best_Net
+Game 27/30 finished -> Winner: Best_Net
+Game 28/30 finished -> Winner: Best_Net
+Game 29/30 finished -> Winner: Best_Net
+Game 30/30 finished -> Winner: Current_Net
+
+================== Final Results ==================
+Current_Net Wins: 12
+Best_Net Wins: 18
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 40.0% (Threshold: 55.0%)
+>>> REJECTED. Keeping the old best model.
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 2/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1810 new samples.
+  -> Total replay buffer size: 3617
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 3.9732 | Value Loss: 0.9441
+Epoch 02/10 | Policy Loss: 3.6798 | Value Loss: 0.7641
+Epoch 03/10 | Policy Loss: 3.5072 | Value Loss: 0.5747
+Epoch 04/10 | Policy Loss: 3.3547 | Value Loss: 0.4229
+Epoch 05/10 | Policy Loss: 3.2103 | Value Loss: 0.3485
+Epoch 06/10 | Policy Loss: 3.0275 | Value Loss: 0.2383
+Epoch 07/10 | Policy Loss: 2.8400 | Value Loss: 0.2035
+Epoch 08/10 | Policy Loss: 2.6262 | Value Loss: 0.1633
+Epoch 09/10 | Policy Loss: 2.4070 | Value Loss: 0.1566
+Epoch 10/10 | Policy Loss: 2.1692 | Value Loss: 0.1398
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Current_Net
+Game 2/15 finished -> Winner: Current_Net
+Game 3/15 finished -> Winner: Best_Net
+Game 4/15 finished -> Winner: Current_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Current_Net
+Game 8/15 finished -> Winner: Current_Net
+Game 9/15 finished -> Winner: Current_Net
+Game 10/15 finished -> Winner: Current_Net
+Game 11/15 finished -> Winner: Best_Net
+Game 12/15 finished -> Winner: Current_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Current_Net
+Game 15/15 finished -> Winner: Current_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Best_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Best_Net
+Game 19/30 finished -> Winner: Current_Net
+Game 20/30 finished -> Winner: Best_Net
+Game 21/30 finished -> Winner: Current_Net
+Game 22/30 finished -> Winner: Current_Net
+Game 23/30 finished -> Winner: Best_Net
+Game 24/30 finished -> Winner: Current_Net
+Game 25/30 finished -> Winner: Current_Net
+Game 26/30 finished -> Winner: Best_Net
+Game 27/30 finished -> Winner: Current_Net
+Game 28/30 finished -> Winner: Current_Net
+Game 29/30 finished -> Winner: Best_Net
+Game 30/30 finished -> Winner: Current_Net
+
+================== Final Results ==================
+Current_Net Wins: 19
+Best_Net Wins: 11
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 63.3% (Threshold: 55.0%)
+>>> ACCEPTED! Upgrading best_model2.pth...
+Model saved to: D:\Durham\final work\code\MODELS\best_model2.pth
+Model loaded: D:\Durham\final work\code\MODELS\best_model2.pth
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 3/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1819 new samples.
+  -> Total replay buffer size: 5436
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 2.4272 | Value Loss: 0.4450
+Epoch 02/10 | Policy Loss: 2.0654 | Value Loss: 0.2409
+Epoch 03/10 | Policy Loss: 1.7702 | Value Loss: 0.1939
+Epoch 04/10 | Policy Loss: 1.4715 | Value Loss: 0.1616
+Epoch 05/10 | Policy Loss: 1.1688 | Value Loss: 0.1472
+Epoch 06/10 | Policy Loss: 0.9724 | Value Loss: 0.1312
+Epoch 07/10 | Policy Loss: 0.7826 | Value Loss: 0.1200
+Epoch 08/10 | Policy Loss: 0.6899 | Value Loss: 0.1171
+Epoch 09/10 | Policy Loss: 0.6559 | Value Loss: 0.1197
+Epoch 10/10 | Policy Loss: 0.6188 | Value Loss: 0.1264
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Best_Net
+Game 2/15 finished -> Winner: Current_Net
+Game 3/15 finished -> Winner: Current_Net
+Game 4/15 finished -> Winner: Best_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Best_Net
+Game 8/15 finished -> Winner: Current_Net
+Game 9/15 finished -> Winner: Best_Net
+Game 10/15 finished -> Winner: Current_Net
+Game 11/15 finished -> Winner: Current_Net
+Game 12/15 finished -> Winner: Best_Net
+Game 13/15 finished -> Winner: Current_Net
+Game 14/15 finished -> Winner: Best_Net
+Game 15/15 finished -> Winner: Best_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Best_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Current_Net
+Game 19/30 finished -> Winner: Current_Net
+Game 20/30 finished -> Winner: Current_Net
+Game 21/30 finished -> Winner: Best_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Current_Net
+Game 24/30 finished -> Winner: Current_Net
+Game 25/30 finished -> Winner: Best_Net
+Game 26/30 finished -> Winner: Best_Net
+Game 27/30 finished -> Winner: Current_Net
+Game 28/30 finished -> Winner: Current_Net
+Game 29/30 finished -> Winner: Current_Net
+Game 30/30 finished -> Winner: Current_Net
+
+================== Final Results ==================
+Current_Net Wins: 16
+Best_Net Wins: 14
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 53.3% (Threshold: 55.0%)
+>>> REJECTED. Keeping the old best model.
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 4/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1811 new samples.
+  -> Total replay buffer size: 7247
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 2.6649 | Value Loss: 0.6560
+Epoch 02/10 | Policy Loss: 2.3082 | Value Loss: 0.3606
+Epoch 03/10 | Policy Loss: 2.0294 | Value Loss: 0.2616
+Epoch 04/10 | Policy Loss: 1.7525 | Value Loss: 0.2191
+Epoch 05/10 | Policy Loss: 1.4873 | Value Loss: 0.1864
+Epoch 06/10 | Policy Loss: 1.2038 | Value Loss: 0.1805
+Epoch 07/10 | Policy Loss: 1.0003 | Value Loss: 0.1572
+Epoch 08/10 | Policy Loss: 0.7939 | Value Loss: 0.1312
+Epoch 09/10 | Policy Loss: 0.6707 | Value Loss: 0.1308
+Epoch 10/10 | Policy Loss: 0.6295 | Value Loss: 0.1234
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Best_Net
+Game 2/15 finished -> Winner: Best_Net
+Game 3/15 finished -> Winner: Best_Net
+Game 4/15 finished -> Winner: Best_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Current_Net
+Game 7/15 finished -> Winner: Best_Net
+Game 8/15 finished -> Winner: Current_Net
+Game 9/15 finished -> Winner: Best_Net
+Game 10/15 finished -> Winner: Best_Net
+Game 11/15 finished -> Winner: Current_Net
+Game 12/15 finished -> Winner: Current_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Best_Net
+Game 15/15 finished -> Winner: Current_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Best_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Best_Net
+Game 19/30 finished -> Winner: Current_Net
+Game 20/30 finished -> Winner: Best_Net
+Game 21/30 finished -> Winner: Best_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Best_Net
+Game 24/30 finished -> Winner: Best_Net
+Game 25/30 finished -> Winner: Best_Net
+Game 26/30 finished -> Winner: Best_Net
+Game 27/30 finished -> Winner: Current_Net
+Game 28/30 finished -> Winner: Best_Net
+Game 29/30 finished -> Winner: Best_Net
+Game 30/30 finished -> Winner: Best_Net
+
+================== Final Results ==================
+Current_Net Wins: 8
+Best_Net Wins: 22
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 26.7% (Threshold: 55.0%)
+>>> REJECTED. Keeping the old best model.
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 5/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1809 new samples.
+  -> Total replay buffer size: 9056
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 2.7457 | Value Loss: 0.7122
+Epoch 02/10 | Policy Loss: 2.4110 | Value Loss: 0.4138
+Epoch 03/10 | Policy Loss: 2.1473 | Value Loss: 0.2985
+Epoch 04/10 | Policy Loss: 1.8880 | Value Loss: 0.2577
+Epoch 05/10 | Policy Loss: 1.6074 | Value Loss: 0.2137
+Epoch 06/10 | Policy Loss: 1.3214 | Value Loss: 0.1777
+Epoch 07/10 | Policy Loss: 1.0987 | Value Loss: 0.1668
+Epoch 08/10 | Policy Loss: 0.8841 | Value Loss: 0.1503
+Epoch 09/10 | Policy Loss: 0.7613 | Value Loss: 0.1516
+Epoch 10/10 | Policy Loss: 0.6872 | Value Loss: 0.1493
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Best_Net
+Game 2/15 finished -> Winner: Current_Net
+Game 3/15 finished -> Winner: Current_Net
+Game 4/15 finished -> Winner: Current_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Current_Net
+Game 8/15 finished -> Winner: Current_Net
+Game 9/15 finished -> Winner: Current_Net
+Game 10/15 finished -> Winner: Best_Net
+Game 11/15 finished -> Winner: Best_Net
+Game 12/15 finished -> Winner: Best_Net
+Game 13/15 finished -> Winner: Current_Net
+Game 14/15 finished -> Winner: Best_Net
+Game 15/15 finished -> Winner: Current_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Current_Net
+Game 17/30 finished -> Winner: Current_Net
+Game 18/30 finished -> Winner: Current_Net
+Game 19/30 finished -> Winner: Best_Net
+Game 20/30 finished -> Winner: Best_Net
+Game 21/30 finished -> Winner: Current_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Current_Net
+Game 24/30 finished -> Winner: Best_Net
+Game 25/30 finished -> Winner: Current_Net
+Game 26/30 finished -> Winner: Current_Net
+Game 27/30 finished -> Winner: Best_Net
+Game 28/30 finished -> Winner: Current_Net
+Game 29/30 finished -> Winner: Current_Net
+Game 30/30 finished -> Winner: Current_Net
+
+================== Final Results ==================
+Current_Net Wins: 19
+Best_Net Wins: 11
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 63.3% (Threshold: 55.0%)
+>>> ACCEPTED! Upgrading best_model2.pth...
+Model saved to: D:\Durham\final work\code\MODELS\best_model2.pth
+Model loaded: D:\Durham\final work\code\MODELS\best_model2.pth
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 6/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1823 new samples.
+  -> Total replay buffer size: 10879
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 1.1822 | Value Loss: 0.3171
+Epoch 02/10 | Policy Loss: 0.8110 | Value Loss: 0.1891
+Epoch 03/10 | Policy Loss: 0.6564 | Value Loss: 0.1633
+Epoch 04/10 | Policy Loss: 0.6074 | Value Loss: 0.1631
+Epoch 05/10 | Policy Loss: 0.6110 | Value Loss: 0.1522
+Epoch 06/10 | Policy Loss: 0.5729 | Value Loss: 0.1411
+Epoch 07/10 | Policy Loss: 0.5520 | Value Loss: 0.1463
+Epoch 08/10 | Policy Loss: 0.5378 | Value Loss: 0.1382
+Epoch 09/10 | Policy Loss: 0.5150 | Value Loss: 0.1364
+Epoch 10/10 | Policy Loss: 0.4895 | Value Loss: 0.1241
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Current_Net
+Game 2/15 finished -> Winner: Best_Net
+Game 3/15 finished -> Winner: Current_Net
+Game 4/15 finished -> Winner: Best_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Current_Net
+Game 8/15 finished -> Winner: Current_Net
+Game 9/15 finished -> Winner: Current_Net
+Game 10/15 finished -> Winner: Current_Net
+Game 11/15 finished -> Winner: Best_Net
+Game 12/15 finished -> Winner: Current_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Current_Net
+Game 15/15 finished -> Winner: Best_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Best_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Current_Net
+Game 19/30 finished -> Winner: Current_Net
+Game 20/30 finished -> Winner: Current_Net
+Game 21/30 finished -> Winner: Current_Net
+Game 22/30 finished -> Winner: Current_Net
+Game 23/30 finished -> Winner: Best_Net
+Game 24/30 finished -> Winner: Best_Net
+Game 25/30 finished -> Winner: Best_Net
+Game 26/30 finished -> Winner: Current_Net
+Game 27/30 finished -> Winner: Best_Net
+Game 28/30 finished -> Winner: Best_Net
+Game 29/30 finished -> Winner: Current_Net
+Game 30/30 finished -> Winner: Current_Net
+
+================== Final Results ==================
+Current_Net Wins: 17
+Best_Net Wins: 13
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 56.7% (Threshold: 55.0%)
+>>> ACCEPTED! Upgrading best_model2.pth...
+Model saved to: D:\Durham\final work\code\MODELS\best_model2.pth
+Model loaded: D:\Durham\final work\code\MODELS\best_model2.pth
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 7/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1807 new samples.
+  -> Total replay buffer size: 12686
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 1.0106 | Value Loss: 0.2887
+Epoch 02/10 | Policy Loss: 0.6522 | Value Loss: 0.1834
+Epoch 03/10 | Policy Loss: 0.5319 | Value Loss: 0.1531
+Epoch 04/10 | Policy Loss: 0.4949 | Value Loss: 0.1440
+Epoch 05/10 | Policy Loss: 0.4692 | Value Loss: 0.1441
+Epoch 06/10 | Policy Loss: 0.5163 | Value Loss: 0.1503
+Epoch 07/10 | Policy Loss: 0.5589 | Value Loss: 0.1437
+Epoch 08/10 | Policy Loss: 0.5097 | Value Loss: 0.1436
+Epoch 09/10 | Policy Loss: 0.4976 | Value Loss: 0.1396
+Epoch 10/10 | Policy Loss: 0.4414 | Value Loss: 0.1271
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Current_Net
+Game 2/15 finished -> Winner: Current_Net
+Game 3/15 finished -> Winner: Current_Net
+Game 4/15 finished -> Winner: Current_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Best_Net
+Game 8/15 finished -> Winner: Current_Net
+Game 9/15 finished -> Winner: Current_Net
+Game 10/15 finished -> Winner: Best_Net
+Game 11/15 finished -> Winner: Best_Net
+Game 12/15 finished -> Winner: Best_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Best_Net
+Game 15/15 finished -> Winner: Best_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Best_Net
+Game 17/30 finished -> Winner: Current_Net
+Game 18/30 finished -> Winner: Current_Net
+Game 19/30 finished -> Winner: Best_Net
+Game 20/30 finished -> Winner: Current_Net
+Game 21/30 finished -> Winner: Current_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Current_Net
+Game 24/30 finished -> Winner: Best_Net
+Game 25/30 finished -> Winner: Current_Net
+Game 26/30 finished -> Winner: Current_Net
+Game 27/30 finished -> Winner: Best_Net
+Game 28/30 finished -> Winner: Current_Net
+Game 29/30 finished -> Winner: Best_Net
+Game 30/30 finished -> Winner: Best_Net
+
+================== Final Results ==================
+Current_Net Wins: 15
+Best_Net Wins: 15
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 50.0% (Threshold: 55.0%)
+>>> REJECTED. Keeping the old best model.
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 8/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1811 new samples.
+  -> Total replay buffer size: 14497
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 1.2942 | Value Loss: 0.3833
+Epoch 02/10 | Policy Loss: 0.7964 | Value Loss: 0.2343
+Epoch 03/10 | Policy Loss: 0.6098 | Value Loss: 0.1856
+Epoch 04/10 | Policy Loss: 0.5440 | Value Loss: 0.1751
+Epoch 05/10 | Policy Loss: 0.5179 | Value Loss: 0.1663
+Epoch 06/10 | Policy Loss: 0.5082 | Value Loss: 0.1645
+Epoch 07/10 | Policy Loss: 0.5110 | Value Loss: 0.1558
+Epoch 08/10 | Policy Loss: 0.5106 | Value Loss: 0.1545
+Epoch 09/10 | Policy Loss: 0.4600 | Value Loss: 0.1411
+Epoch 10/10 | Policy Loss: 0.4690 | Value Loss: 0.1520
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Current_Net
+Game 2/15 finished -> Winner: Best_Net
+Game 3/15 finished -> Winner: Current_Net
+Game 4/15 finished -> Winner: Current_Net
+Game 5/15 finished -> Winner: Current_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Current_Net
+Game 8/15 finished -> Winner: Best_Net
+Game 9/15 finished -> Winner: Best_Net
+Game 10/15 finished -> Winner: Current_Net
+Game 11/15 finished -> Winner: Best_Net
+Game 12/15 finished -> Winner: Current_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Best_Net
+Game 15/15 finished -> Winner: Best_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Current_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Current_Net
+Game 19/30 finished -> Winner: Current_Net
+Game 20/30 finished -> Winner: Best_Net
+Game 21/30 finished -> Winner: Current_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Best_Net
+Game 24/30 finished -> Winner: Current_Net
+Game 25/30 finished -> Winner: Current_Net
+Game 26/30 finished -> Winner: Current_Net
+Game 27/30 finished -> Winner: Current_Net
+Game 28/30 finished -> Winner: Current_Net
+Game 29/30 finished -> Winner: Best_Net
+Game 30/30 finished -> Winner: Best_Net
+
+================== Final Results ==================
+Current_Net Wins: 16
+Best_Net Wins: 14
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 53.3% (Threshold: 55.0%)
+>>> REJECTED. Keeping the old best model.
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 9/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1813 new samples.
+  -> Total replay buffer size: 16310
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 1.4582 | Value Loss: 0.4313
+Epoch 02/10 | Policy Loss: 0.9346 | Value Loss: 0.2642
+Epoch 03/10 | Policy Loss: 0.7177 | Value Loss: 0.2104
+Epoch 04/10 | Policy Loss: 0.5716 | Value Loss: 0.1814
+Epoch 05/10 | Policy Loss: 0.5413 | Value Loss: 0.1874
+Epoch 06/10 | Policy Loss: 0.5327 | Value Loss: 0.1755
+Epoch 07/10 | Policy Loss: 0.5306 | Value Loss: 0.1799
+Epoch 08/10 | Policy Loss: 0.5120 | Value Loss: 0.1650
+Epoch 09/10 | Policy Loss: 0.4886 | Value Loss: 0.1540
+Epoch 10/10 | Policy Loss: 0.4854 | Value Loss: 0.1624
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Best_Net
+Game 2/15 finished -> Winner: Current_Net
+Game 3/15 finished -> Winner: Best_Net
+Game 4/15 finished -> Winner: Best_Net
+Game 5/15 finished -> Winner: Best_Net
+Game 6/15 finished -> Winner: Best_Net
+Game 7/15 finished -> Winner: Best_Net
+Game 8/15 finished -> Winner: Best_Net
+Game 9/15 finished -> Winner: Current_Net
+Game 10/15 finished -> Winner: Current_Net
+Game 11/15 finished -> Winner: Current_Net
+Game 12/15 finished -> Winner: Current_Net
+Game 13/15 finished -> Winner: Best_Net
+Game 14/15 finished -> Winner: Current_Net
+Game 15/15 finished -> Winner: Best_Net
+
+[Second Half] Best_Net (Black/First) vs Current_Net (White)
+Game 16/30 finished -> Winner: Current_Net
+Game 17/30 finished -> Winner: Best_Net
+Game 18/30 finished -> Winner: Current_Net
+Game 19/30 finished -> Winner: Best_Net
+Game 20/30 finished -> Winner: Best_Net
+Game 21/30 finished -> Winner: Current_Net
+Game 22/30 finished -> Winner: Best_Net
+Game 23/30 finished -> Winner: Best_Net
+Game 24/30 finished -> Winner: Current_Net
+Game 25/30 finished -> Winner: Current_Net
+Game 26/30 finished -> Winner: Best_Net
+Game 27/30 finished -> Winner: Current_Net
+Game 28/30 finished -> Winner: Current_Net
+Game 29/30 finished -> Winner: Best_Net
+Game 30/30 finished -> Winner: Best_Net
+
+================== Final Results ==================
+Current_Net Wins: 13
+Best_Net Wins: 17
+Draws: 0
+==================================================
+
+
+Result: Current Net Win Rate = 43.3% (Threshold: 55.0%)
+>>> REJECTED. Keeping the old best model.
+>>> [Auto-Plot] Real-time charts updated in 'TRAINNING_CHARTS/evolution_history.png'
+
+--------------------------------------------------
+ ITERATION 10/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.Traceback (most recent call last):
+  File "d:\Durham\final work\code\Training_Alphazero.py", line 196, in <module>
+    iteration_data += execute_episode(game, nnet_best)
+  File "d:\Durham\final work\code\Training_Alphazero.py", line 134, in execute_episode
+    pi = mcts.getAction(canonical_board, temp=temp)
+  File "d:\Durham\final work\code\AGENTS\OthelloPlayers.py", line 724, in getAction
+    self.search(canonicalBoard, depth=0)
+  File "d:\Durham\final work\code\AGENTS\OthelloPlayers.py", line 830, in search
+    v = self.search(next_s, depth=depth + 1)
+  File "d:\Durham\final work\code\AGENTS\OthelloPlayers.py", line 830, in search
+    v = self.search(next_s, depth=depth + 1)
+  File "d:\Durham\final work\code\AGENTS\OthelloPlayers.py", line 830, in search
+    v = self.search(next_s, depth=depth + 1)
+  [Previous line repeated 1 more time]
+  File "d:\Durham\final work\code\AGENTS\OthelloPlayers.py", line 775, in search
+    log_pi, v = self.nnet.nnet(board_tensor)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "d:\Durham\final work\code\CNN\OthelloNNet.py", line 64, in forward
+    pi = F.relu(self.bn_policy(self.conv_policy(s)))
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 1741, in _call_impl
+    forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+AttributeError: 'cell' object has no attribute '_C'

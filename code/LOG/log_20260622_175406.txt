@@ -1,0 +1,16 @@
+ AlphaZero Infinite Evolution Loop Starting...
+========================================================
+Traceback (most recent call last):
+  File "d:\Durham\final work\code\Training_Alphazero.py", line 173, in <module>
+    nnet_current = NNetWrapper(game)
+  File "d:\Durham\final work\code\CNN\NNetTrainer.py", line 23, in __init__
+    self.nnet.to(self.device)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 1340, in to
+    return self._apply(convert)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 900, in _apply
+    module._apply(fn)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 927, in _apply
+    param_applied = fn(param)
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\nn\modules\module.py", line 1326, in convert
+    return t.to(
+KeyboardInterrupt

@@ -1,0 +1,10 @@
+ AlphaZero Infinite Evolution Loop Starting...
+========================================================
+Traceback (most recent call last):
+  File "d:\Durham\final work\code\Training_Alphazero.py", line 173, in <module>
+    nnet_current = NNetWrapper(game)
+  File "d:\Durham\final work\code\CNN\NNetTrainer.py", line 23, in __init__
+    self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+  File "C:\Users\Lenovo\.conda\envs\alphazero\lib\site-packages\torch\cuda\__init__.py", line 129, in is_available
+    return torch._C._cuda_getDeviceCount() > 0
+KeyboardInterrupt

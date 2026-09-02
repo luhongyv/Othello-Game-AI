@@ -1,0 +1,32 @@
+ AlphaZero Infinite Evolution Loop Starting...
+========================================================
+Model loaded: D:\Durham\final work\code\MODELS\best_model.pth
+Model loaded: D:\Durham\final work\code\MODELS\best_model.pth
+Loaded existing best_model.pth. Continuing evolution...
+
+--------------------------------------------------
+ ITERATION 1/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 30 episodes...
+  -> Episode 1/30 completed.  -> Episode 2/30 completed.  -> Episode 3/30 completed.  -> Episode 4/30 completed.  -> Episode 5/30 completed.  -> Episode 6/30 completed.  -> Episode 7/30 completed.  -> Episode 8/30 completed.  -> Episode 9/30 completed.  -> Episode 10/30 completed.  -> Episode 11/30 completed.  -> Episode 12/30 completed.  -> Episode 13/30 completed.  -> Episode 14/30 completed.  -> Episode 15/30 completed.  -> Episode 16/30 completed.  -> Episode 17/30 completed.  -> Episode 18/30 completed.  -> Episode 19/30 completed.  -> Episode 20/30 completed.  -> Episode 21/30 completed.  -> Episode 22/30 completed.  -> Episode 23/30 completed.  -> Episode 24/30 completed.  -> Episode 25/30 completed.  -> Episode 26/30 completed.  -> Episode 27/30 completed.  -> Episode 28/30 completed.  -> Episode 29/30 completed.  -> Episode 30/30 completed.
+  -> Generated 1810 new samples.
+  -> Total replay buffer size: 1810
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 4.0736 | Value Loss: 0.8155
+Epoch 02/10 | Policy Loss: 3.8459 | Value Loss: 0.5455
+Epoch 03/10 | Policy Loss: 3.6653 | Value Loss: 0.4064
+Epoch 04/10 | Policy Loss: 3.5069 | Value Loss: 0.3036
+Epoch 05/10 | Policy Loss: 3.3583 | Value Loss: 0.2445
+Epoch 06/10 | Policy Loss: 3.1724 | Value Loss: 0.1655
+Epoch 07/10 | Policy Loss: 2.9398 | Value Loss: 0.1439
+Epoch 08/10 | Policy Loss: 2.7005 | Value Loss: 0.1316
+Epoch 09/10 | Policy Loss: 2.4598 | Value Loss: 0.1234
+Epoch 10/10 | Policy Loss: 2.1812 | Value Loss: 0.0958
+
+[3/3] Arena Evaluation: Current VS Best (30 Games)...
+========== Evaluation Start: Current_Net vs Best_Net (30 Games) ==========
+
+[First Half] Current_Net (Black/First) vs Best_Net (White)
+Game 1/15 finished -> Winner: Best_Net

@@ -1,0 +1,19 @@
+Model loaded: /home3/tszj13/Othello/code/MODELS/model_Pure_RL.pth
+Model loaded: /home3/tszj13/Othello/code/MODELS/model_Pure_RL.pth
+Loaded existing model_Pure_RL.pth. Continuing evolution...
+Found existing pipeline state at /home3/tszj13/Othello/code/checkpoint/pipeline_state_Pure_RL.json!
+Fast-forwarding: Resuming directly from Iteration 12/20
+Found existing replay buffer at /home3/tszj13/Othello/code/checkpoint/replay_buffer_Pure_RL.pkl!
+Successfully loaded 30000 historical samples into replay buffer.
+ AlphaZero Pure RL Evolution Loop Starting...
+========================================================
+
+--------------------------------------------------
+ ITERATION 12/20
+--------------------------------------------------
+[1/3] Self-Play Phase safely skipped (Data already in buffer).
+Found old Arena scores but lost trained weights. Clearing Arena checkpoint to ensure fairness.
+
+[2/3] Training Current Model...
+Starting training on device: cuda
+Epoch 01/10 | Policy Loss: 1.0602 | Value Loss: 0.4606

@@ -1,0 +1,56 @@
+Model loaded: /home3/tszj13/Othello/code/MODELS/model_Pure_RL.pth
+Model loaded: /home3/tszj13/Othello/code/MODELS/model_Pure_RL.pth
+Loaded existing model_Pure_RL.pth. Continuing evolution...
+Found existing pipeline state at /home3/tszj13/Othello/code/checkpoint/pipeline_state_Pure_RL.json!
+Fast-forwarding: Resuming directly from Iteration 9/20
+Found existing replay buffer at /home3/tszj13/Othello/code/checkpoint/replay_buffer_Pure_RL.pkl!
+Successfully loaded 30000 historical samples into replay buffer.
+ AlphaZero Pure RL Evolution Loop Starting...
+========================================================
+
+--------------------------------------------------
+ ITERATION 9/20
+--------------------------------------------------
+[1/3] Self-Play: Generating 100 episodes...
+Resuming self-play from game 59/100...
+  -> Episode 59/100 completed.  -> Episode 60/100 completed.  -> Episode 61/100 completed.  -> Episode 62/100 completed.  -> Episode 63/100 completed.  -> Episode 64/100 completed.  -> Episode 65/100 completed.  -> Episode 66/100 completed.  -> Episode 67/100 completed.  -> Episode 68/100 completed.  -> Episode 69/100 completed.  -> Episode 70/100 completed.Traceback (most recent call last):
+  File "Trainning_Model_Pure_RL.py", line 358, in <module>
+    pipeline.learn()
+  File "Trainning_Model_Pure_RL.py", line 290, in learn
+    new_examples = self.execute_episode()
+  File "Trainning_Model_Pure_RL.py", line 189, in execute_episode
+    pi = mcts.getAction(canonical_board, temp=temp)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 646, in getAction
+    self.search(canonicalBoard, depth=0)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 737, in search
+    v = self.search(next_s, depth=depth + 1)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 737, in search
+    v = self.search(next_s, depth=depth + 1)
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 737, in search
+    v = self.search(next_s, depth=depth + 1)
+  [Previous line repeated 16 more times]
+  File "/home3/tszj13/Othello/code/AGENTS/OthelloPlayers.py", line 685, in search
+    pi, v = self.nnet.predict(canonicalBoard)
+  File "/home3/tszj13/Othello/code/CNN/NNetTrainer.py", line 42, in predict
+    pi, v = self.nnet(board_tensor)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home3/tszj13/Othello/code/CNN/OthelloNNet.py", line 61, in forward
+    s = res_block(s)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home3/tszj13/Othello/code/CNN/OthelloNNet.py", line 19, in forward
+    out = F.relu(self.bn1(self.conv1(x)))
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 458, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home3/tszj13/.local/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 454, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt

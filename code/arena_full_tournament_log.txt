@@ -1,0 +1,320 @@
+========== TOURNAMENT START: Pure_RL_Agent vs SL_RL_Hybrid_Agent ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-09 10:03:13
+
+[Phase 1] Pure_RL_Agent (Black) vs SL_RL_Hybrid_Agent (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 42, P2 Wins: 8, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 84, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 124, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 163, P2 Wins: 37, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 201, P2 Wins: 49, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 235, P2 Wins: 65, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 276, P2 Wins: 74, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 314, P2 Wins: 86, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 354, P2 Wins: 96, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 390, P2 Wins: 110, Draws: 0
+
+[Phase 2] SL_RL_Hybrid_Agent (Black) vs Pure_RL_Agent (White)
+========== TOURNAMENT START: Pure_RL_Agent vs SL_RL_Hybrid_Agent ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-09 17:40:57
+
+[Phase 1] Pure_RL_Agent (Black) vs SL_RL_Hybrid_Agent (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 40, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 78, P2 Wins: 22, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 119, P2 Wins: 31, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 159, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 200, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 233, P2 Wins: 67, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 276, P2 Wins: 74, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 318, P2 Wins: 82, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 358, P2 Wins: 92, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 398, P2 Wins: 102, Draws: 0
+
+[Phase 2] SL_RL_Hybrid_Agent (Black) vs Pure_RL_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 440, P2 Wins: 110, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 478, P2 Wins: 122, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 519, P2 Wins: 131, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 556, P2 Wins: 144, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 593, P2 Wins: 157, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 629, P2 Wins: 171, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 669, P2 Wins: 181, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 704, P2 Wins: 196, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 744, P2 Wins: 206, Draws: 0
+  [Progress] Phase 2: 500/500 games done. Current P1 Wins: 785, P2 Wins: 215, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 1000
+ Total Time Taken  : 13.72 Hours
+ Pure_RL_Agent Wins : 785 (78.5%)
+ SL_RL_Hybrid_Agent Wins : 215 (21.5%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Agent): 78.50% ± 2.55% (95% CI)
+ Effective Win Rate (SL_RL_Hybrid_Agent): 21.50% ± 2.55% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Agent vs Greedy_MCTS_Baseline ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-10 07:24:06
+
+[Phase 1] Pure_RL_Agent (Black) vs Greedy_MCTS_Baseline (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 48, P2 Wins: 2, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 96, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 144, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 194, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 241, P2 Wins: 9, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 290, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 339, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 388, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 436, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 483, P2 Wins: 17, Draws: 0
+
+[Phase 2] Greedy_MCTS_Baseline (Black) vs Pure_RL_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 528, P2 Wins: 22, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 575, P2 Wins: 25, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 625, P2 Wins: 25, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 675, P2 Wins: 25, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 725, P2 Wins: 25, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 772, P2 Wins: 28, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 820, P2 Wins: 30, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 867, P2 Wins: 33, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 913, P2 Wins: 37, Draws: 0
+  [Progress] Phase 2: 500/500 games done. Current P1 Wins: 959, P2 Wins: 41, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 1000
+ Total Time Taken  : 6.77 Hours
+ Pure_RL_Agent Wins : 959 (95.9%)
+ Greedy_MCTS_Baseline Wins : 41 (4.1%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Agent): 95.90% ± 1.23% (95% CI)
+ Effective Win Rate (Greedy_MCTS_Baseline): 4.10% ± 1.23% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Pure_RL_Agent vs Minimax_Dynamic ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-10 14:10:33
+
+[Phase 1] Pure_RL_Agent (Black) vs Minimax_Dynamic (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 39, P2 Wins: 11, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 74, P2 Wins: 26, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 112, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 150, P2 Wins: 50, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 189, P2 Wins: 61, Draws: 0
+========== TOURNAMENT START: Pure_RL_Agent vs Minimax_Dynamic ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-10 18:26:28
+
+[Phase 1] Pure_RL_Agent (Black) vs Minimax_Dynamic (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 40, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 75, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 117, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 151, P2 Wins: 49, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 190, P2 Wins: 60, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 224, P2 Wins: 76, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 262, P2 Wins: 88, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 300, P2 Wins: 100, Draws: 0
+========== TOURNAMENT START: Pure_RL_Agent vs Minimax_Dynamic ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-11 02:56:54
+
+[Phase 1] Pure_RL_Agent (Black) vs Minimax_Dynamic (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 37, P2 Wins: 13, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 73, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 109, P2 Wins: 41, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 147, P2 Wins: 53, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 179, P2 Wins: 71, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 215, P2 Wins: 85, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 250, P2 Wins: 100, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 290, P2 Wins: 110, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 326, P2 Wins: 124, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 361, P2 Wins: 139, Draws: 0
+
+[Phase 2] Minimax_Dynamic (Black) vs Pure_RL_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 403, P2 Wins: 147, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 438, P2 Wins: 162, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 479, P2 Wins: 171, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 514, P2 Wins: 186, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 548, P2 Wins: 202, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 591, P2 Wins: 209, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 627, P2 Wins: 223, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 667, P2 Wins: 233, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 708, P2 Wins: 242, Draws: 0
+========== TOURNAMENT START: Pure_RL_Agent vs Minimax_Dynamic ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-11 19:13:36
+
+[Phase 1] Pure_RL_Agent (Black) vs Minimax_Dynamic (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 43, P2 Wins: 7, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 88, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 125, P2 Wins: 25, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 164, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 204, P2 Wins: 46, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 241, P2 Wins: 59, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 274, P2 Wins: 76, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 316, P2 Wins: 84, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 353, P2 Wins: 97, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 391, P2 Wins: 109, Draws: 0
+
+[Phase 2] Minimax_Dynamic (Black) vs Pure_RL_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 430, P2 Wins: 120, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 473, P2 Wins: 127, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 513, P2 Wins: 137, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 553, P2 Wins: 147, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 596, P2 Wins: 154, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 636, P2 Wins: 164, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 675, P2 Wins: 175, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 709, P2 Wins: 191, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 744, P2 Wins: 206, Draws: 0
+  [Progress] Phase 2: 500/500 games done. Current P1 Wins: 786, P2 Wins: 214, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 1000
+ Total Time Taken  : 16.92 Hours
+ Pure_RL_Agent Wins : 786 (78.6%)
+ Minimax_Dynamic Wins : 214 (21.4%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Pure_RL_Agent): 78.60% ± 2.54% (95% CI)
+ Effective Win Rate (Minimax_Dynamic): 21.40% ± 2.54% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Agent vs Greedy_MCTS_Baseline ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-12 12:08:57
+
+[Phase 1] SL_RL_Hybrid_Agent (Black) vs Greedy_MCTS_Baseline (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 44, P2 Wins: 6, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 90, P2 Wins: 10, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 136, P2 Wins: 14, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 184, P2 Wins: 16, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 230, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 277, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 321, P2 Wins: 29, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 364, P2 Wins: 36, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 411, P2 Wins: 39, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 455, P2 Wins: 45, Draws: 0
+
+[Phase 2] Greedy_MCTS_Baseline (Black) vs SL_RL_Hybrid_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 499, P2 Wins: 51, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 547, P2 Wins: 53, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 595, P2 Wins: 55, Draws: 0
+========== TOURNAMENT START: SL_RL_Hybrid_Agent vs Greedy_MCTS_Baseline ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-12 16:40:17
+
+[Phase 1] SL_RL_Hybrid_Agent (Black) vs Greedy_MCTS_Baseline (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 46, P2 Wins: 4, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 88, P2 Wins: 12, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 135, P2 Wins: 15, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 180, P2 Wins: 20, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 223, P2 Wins: 27, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 267, P2 Wins: 33, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 312, P2 Wins: 38, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 360, P2 Wins: 40, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 404, P2 Wins: 46, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 447, P2 Wins: 53, Draws: 0
+
+[Phase 2] Greedy_MCTS_Baseline (Black) vs SL_RL_Hybrid_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 490, P2 Wins: 60, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 539, P2 Wins: 61, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 583, P2 Wins: 67, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 632, P2 Wins: 68, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 677, P2 Wins: 73, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 723, P2 Wins: 77, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 768, P2 Wins: 82, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 815, P2 Wins: 85, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 860, P2 Wins: 90, Draws: 0
+  [Progress] Phase 2: 500/500 games done. Current P1 Wins: 908, P2 Wins: 92, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 1000
+ Total Time Taken  : 6.79 Hours
+ SL_RL_Hybrid_Agent Wins : 908 (90.8%)
+ Greedy_MCTS_Baseline Wins : 92 (9.2%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Agent): 90.80% ± 1.79% (95% CI)
+ Effective Win Rate (Greedy_MCTS_Baseline): 9.20% ± 1.79% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: SL_RL_Hybrid_Agent vs Minimax_Dynamic ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-12 23:27:39
+
+[Phase 1] SL_RL_Hybrid_Agent (Black) vs Minimax_Dynamic (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 27, P2 Wins: 23, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 46, P2 Wins: 54, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 72, P2 Wins: 78, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 103, P2 Wins: 97, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 127, P2 Wins: 123, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 155, P2 Wins: 145, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 182, P2 Wins: 168, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 206, P2 Wins: 194, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 238, P2 Wins: 212, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 268, P2 Wins: 232, Draws: 0
+
+[Phase 2] Minimax_Dynamic (Black) vs SL_RL_Hybrid_Agent (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 300, P2 Wins: 250, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 330, P2 Wins: 270, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 361, P2 Wins: 289, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 393, P2 Wins: 307, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 419, P2 Wins: 331, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 451, P2 Wins: 349, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 481, P2 Wins: 369, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 509, P2 Wins: 391, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 532, P2 Wins: 418, Draws: 0
+  [Progress] Phase 2: 500/500 games done. Current P1 Wins: 555, P2 Wins: 445, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 1000
+ Total Time Taken  : 17.62 Hours
+ SL_RL_Hybrid_Agent Wins : 555 (55.5%)
+ Minimax_Dynamic Wins : 445 (44.5%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (SL_RL_Hybrid_Agent): 55.50% ± 3.08% (95% CI)
+ Effective Win Rate (Minimax_Dynamic): 44.50% ± 3.08% (95% CI)
+=================================================================
+
+========== TOURNAMENT START: Greedy_MCTS_Baseline vs Minimax_Dynamic ==========
+Total Games: 1000 | Random Opening Plies: 4
+Time: 2026-08-13 17:04:41
+
+[Phase 1] Greedy_MCTS_Baseline (Black) vs Minimax_Dynamic (White)
+  [Progress] Phase 1: 50/500 games done. Current P1 Wins: 3, P2 Wins: 47, Draws: 0
+  [Progress] Phase 1: 100/500 games done. Current P1 Wins: 6, P2 Wins: 94, Draws: 0
+  [Progress] Phase 1: 150/500 games done. Current P1 Wins: 13, P2 Wins: 137, Draws: 0
+  [Progress] Phase 1: 200/500 games done. Current P1 Wins: 18, P2 Wins: 182, Draws: 0
+  [Progress] Phase 1: 250/500 games done. Current P1 Wins: 23, P2 Wins: 227, Draws: 0
+  [Progress] Phase 1: 300/500 games done. Current P1 Wins: 27, P2 Wins: 273, Draws: 0
+  [Progress] Phase 1: 350/500 games done. Current P1 Wins: 35, P2 Wins: 315, Draws: 0
+  [Progress] Phase 1: 400/500 games done. Current P1 Wins: 38, P2 Wins: 362, Draws: 0
+  [Progress] Phase 1: 450/500 games done. Current P1 Wins: 41, P2 Wins: 409, Draws: 0
+  [Progress] Phase 1: 500/500 games done. Current P1 Wins: 43, P2 Wins: 457, Draws: 0
+
+[Phase 2] Minimax_Dynamic (Black) vs Greedy_MCTS_Baseline (White)
+  [Progress] Phase 2: 50/500 games done. Current P1 Wins: 51, P2 Wins: 499, Draws: 0
+  [Progress] Phase 2: 100/500 games done. Current P1 Wins: 58, P2 Wins: 542, Draws: 0
+  [Progress] Phase 2: 150/500 games done. Current P1 Wins: 63, P2 Wins: 587, Draws: 0
+  [Progress] Phase 2: 200/500 games done. Current P1 Wins: 67, P2 Wins: 633, Draws: 0
+  [Progress] Phase 2: 250/500 games done. Current P1 Wins: 76, P2 Wins: 674, Draws: 0
+  [Progress] Phase 2: 300/500 games done. Current P1 Wins: 79, P2 Wins: 721, Draws: 0
+  [Progress] Phase 2: 350/500 games done. Current P1 Wins: 85, P2 Wins: 765, Draws: 0
+  [Progress] Phase 2: 400/500 games done. Current P1 Wins: 92, P2 Wins: 808, Draws: 0
+  [Progress] Phase 2: 450/500 games done. Current P1 Wins: 98, P2 Wins: 852, Draws: 0
+  [Progress] Phase 2: 500/500 games done. Current P1 Wins: 104, P2 Wins: 896, Draws: 0
+
+=================== FINAL STATISTICAL RESULTS ===================
+ Matches Evaluated : 1000
+ Total Time Taken  : 11.54 Hours
+ Greedy_MCTS_Baseline Wins : 104 (10.4%)
+ Minimax_Dynamic Wins : 896 (89.6%)
+ Draws             : 0 (0.0%)
+-----------------------------------------------------------------
+ Effective Win Rate (Greedy_MCTS_Baseline): 10.40% ± 1.89% (95% CI)
+ Effective Win Rate (Minimax_Dynamic): 89.60% ± 1.89% (95% CI)
+=================================================================
+
